@@ -1,0 +1,181 @@
+{
+  "Name": "1_900_Reel",
+  "Prefab": "Assets/Models/Reel.prefab",
+  "Parent": "RingWorld_Body",
+  "Sector": "Sector_RingWorld",
+  "Signal": "ACHIEVEMENT_1_900",
+  "SignalAudio": "SBK_SIGNALSCOPE",
+  "InitialRotation": {
+    "X": 16.0006,
+    "Y": 74.3349,
+    "Z": 90.8646
+  },
+  "InitialPosition": {
+    "X": 64.1983,
+    "Y": 49.3002,
+    "Z": -279.9522
+  },
+  "Type": "SLIDE",
+  "Slides": [
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00000.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00001.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00002.png",
+      "BackdropAudio": "DREAM"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00003.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00004.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00005.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00006.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00007.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00008.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00009.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00010.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00011.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00012.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00013.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00014.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00015.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00016.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00017.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00018.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00019.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00020.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00021.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00022.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00023.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00024.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00025.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00026.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00027.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00028.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00029.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00030.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00031.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00032.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00033.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00034.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00035.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00036.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00037.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00038.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00039.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00040.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00041.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00042.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00043.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00044.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00045.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00046.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00047.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00048.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00049.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00050.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00051.png"
+    },
+    {
+      "Path": "Assets\\Slides\\1-900\\1-900_00052.png"
+    }
+  ]
+}

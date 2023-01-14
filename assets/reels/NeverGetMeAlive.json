@@ -1,0 +1,170 @@
+{
+  "Name": "NeverGetMeAlive_Reel",
+  "Prefab": "Assets/Models/Reel.prefab",
+  "Parent": "RingWorld_Body",
+  "Sector": "Sector_RingWorld",
+  "Signal": "NEVER_GET_ME_ALIVE",
+  "SignalAudio": "SBK_SIGNALSCOPE",
+  "InitialRotation": {
+    "X": 25.1815,
+    "Y": 216.4748,
+    "Z": 270.2134
+  },
+  "InitialPosition": {
+    "X": 183.9872,
+    "Y": 153.9845,
+    "Z": -146.7208
+  },
+  "Type": "SLIDE",
+  "Slides": [
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00001.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00002.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00003.png",
+      "BackdropAudio": "DREAM"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00004.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00005.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00006.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00007.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00008.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00009.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00010.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00011.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00012.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00013.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00014.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00015.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00016.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00017.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00018.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00019.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00020.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00021.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00022.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00023.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00024.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00025.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00026.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00027.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00028.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00029.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00030.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00031.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00032.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00033.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00034.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00035.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00036.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00037.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00038.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00039.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00040.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00041.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00042.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00043.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00044.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00045.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00046.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00047.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00048.png"
+    },
+    {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00049.png",
+      "BeatAudio": "SPLASH"
+    }
+  ]
+}

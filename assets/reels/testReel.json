@@ -1,0 +1,185 @@
+{
+  "Name": "TEST_PROJECTION",
+  "Prefab": "Assets/Models/LanternPrefab.prefab",
+  "Parent": "TimberHearth_Body",
+  "Sector": "Sector_Village",
+  "Signalscope": "SBK_SIGNALSCOPE",
+  "InitialRotation": {
+    "X": 55.0351,
+    "Y": 298.4082,
+    "Z": 130.2823
+  },
+  "InitialPosition": {
+    "X": 16.0934,
+    "Y": -40.6021,
+    "Z": 186.3052
+  },
+  "Type": "PROJECTION",
+  "Slides": [
+    {
+      "Path": "Assets\\SbekuSlide\\SbekuSlide_00000.png",
+      "Duration": 1,
+      "BackdropAudio": "TEST_ENDING"
+    },
+    {
+      "Path": "Assets\\SbekuSlide\\SbekuSlide_00001.png",
+      "Duration": 1
+    },
+    {
+      "Path": "Assets\\SbekuSlide\\SbekuSlide_00002.png",
+      "Duration": 1
+    },
+    {
+      "Path": "Assets\\SbekuSlide\\SbekuSlide_00003.png",
+      "Duration": 1
+    },
+    {
+      "Path": "Assets\\SbekuSlide\\SbekuSlide_00004.png",
+      "Duration": 1
+    },
+    {
+      "Path": "Assets\\SbekuSlide\\SbekuSlide_00005.png",
+      "Duration": 1
+    },
+    {
+      "Path": "Assets\\SbekuSlide\\SbekuSlide_00006.png",
+      "Duration": 1
+    },
+    {
+      "Path": "Assets\\SbekuSlide\\SbekuSlide_00007.png",
+      "Duration": 1
+    },
+    {
+      "Path": "Assets\\SbekuSlide\\SbekuSlide_00008.png",
+      "Duration": 1
+    },
+    {
+      "Path": "Assets\\SbekuSlide\\SbekuSlide_00009.png",
+      "Duration": 1
+    },
+    {
+      "Path": "Assets\\SbekuSlide\\SbekuSlide_00010.png",
+      "Duration": 1
+    },
+    {
+      "Path": "Assets\\SbekuSlide\\SbekuSlide_00011.png",
+      "Duration": 1
+    },
+    {
+      "Path": "Assets\\SbekuSlide\\SbekuSlide_00012.png",
+      "Duration": 1
+    },
+    {
+      "Path": "Assets\\SbekuSlide\\SbekuSlide_00013.png",
+      "Duration": 1
+    },
+    {
+      "Path": "Assets\\SbekuSlide\\SbekuSlide_00014.png",
+      "Duration": 1
+    },
+    {
+      "Path": "Assets\\SbekuSlide\\SbekuSlide_00015.png",
+      "Duration": 1
+    },
+    {
+      "Path": "Assets\\SbekuSlide\\SbekuSlide_00016.png",
+      "Duration": 1
+    },
+    {
+      "Path": "Assets\\SbekuSlide\\SbekuSlide_00017.png",
+      "Duration": 1
+    },
+    {
+      "Path": "Assets\\SbekuSlide\\SbekuSlide_00018.png",
+      "Duration": 1
+    },
+    {
+      "Path": "Assets\\SbekuSlide\\SbekuSlide_00019.png",
+      "Duration": 1
+    },
+    {
+      "Path": "Assets\\SbekuSlide\\SbekuSlide_00020.png",
+      "Duration": 1
+    },
+    {
+      "Path": "Assets\\SbekuSlide\\SbekuSlide_00021.png",
+      "Duration": 1
+    },
+    {
+      "Path": "Assets\\SbekuSlide\\SbekuSlide_00022.png",
+      "Duration": 1
+    },
+    {
+      "Path": "Assets\\SbekuSlide\\SbekuSlide_00023.png",
+      "Duration": 1
+    },
+    {
+      "Path": "Assets\\SbekuSlide\\SbekuSlide_00024.png",
+      "Duration": 1
+    },
+    {
+      "Path": "Assets\\SbekuSlide\\SbekuSlide_00025.png",
+      "Duration": 1
+    },
+    {
+      "Path": "Assets\\SbekuSlide\\SbekuSlide_00026.png",
+      "Duration": 1
+    },
+    {
+      "Path": "Assets\\SbekuSlide\\SbekuSlide_00027.png",
+      "Duration": 1
+    },
+    {
+      "Path": "Assets\\SbekuSlide\\SbekuSlide_00028.png",
+      "Duration": 1
+    },
+    {
+      "Path": "Assets\\SbekuSlide\\SbekuSlide_00029.png",
+      "Duration": 1
+    },
+    {
+      "Path": "Assets\\SbekuSlide\\SbekuSlide_00030.png",
+      "Duration": 1
+    },
+    {
+      "Path": "Assets\\SbekuSlide\\SbekuSlide_00031.png",
+      "Duration": 1
+    },
+    {
+      "Path": "Assets\\SbekuSlide\\SbekuSlide_00032.png",
+      "Duration": 1
+    },
+    {
+      "Path": "Assets\\SbekuSlide\\SbekuSlide_00033.png",
+      "Duration": 1
+    },
+    {
+      "Path": "Assets\\SbekuSlide\\SbekuSlide_00034.png",
+      "Duration": 1
+    },
+    {
+      "Path": "Assets\\SbekuSlide\\SbekuSlide_00035.png",
+      "Duration": 1
+    },
+    {
+      "Path": "Assets\\SbekuSlide\\SbekuSlide_00036.png",
+      "Duration": 1
+    },
+    {
+      "Path": "Assets\\SbekuSlide\\SbekuSlide_00037.png",
+      "Duration": 1
+    },
+    {
+      "Path": "Assets\\SbekuSlide\\SbekuSlide_00038.png",
+      "Duration": 1
+    },
+    {
+      "Path": "Assets\\SbekuSlide\\SbekuSlide_00039.png",
+      "Duration": 1
+    },
+    {
+      "Path": "Assets\\SbekuSlide\\SbekuSlide_00040.png",
+      "Duration": 1
+    }
+  ]
+}

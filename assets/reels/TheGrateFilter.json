@@ -1,0 +1,115 @@
+{
+  "Name": "TheGrateFilter_Reel",
+  "Prefab": "Assets/Models/Reel.prefab",
+  "Parent": "RingWorld_Body",
+  "Sector": "Sector_RingWorld",
+  "Signal": "THE_GRATE_FILTER",
+  "SignalAudio": "SBK_SIGNALSCOPE",
+  "InitialRotation": {
+    "X": 277.213,
+    "Y": 242.0616,
+    "Z": 270
+  },
+  "InitialPosition": {
+    "X": 108.9931,
+    "Y": -177.7069,
+    "Z": -214.5684
+  },
+  "Type": "SLIDE",
+  "Slides": [
+    {
+      "Path": "Assets\\Slides\\TheGrateFilter\\TheGrateFilter_00000.png"
+    },
+    {
+      "Path": "Assets\\Slides\\TheGrateFilter\\TheGrateFilter_00001.png",
+      "BackdropAudio": "THE_GRATE_FILTER"
+    },
+    {
+      "Path": "Assets\\Slides\\TheGrateFilter\\TheGrateFilter_00002.png"
+    },
+    {
+      "Path": "Assets\\Slides\\TheGrateFilter\\TheGrateFilter_00003.png"
+    },
+    {
+      "Path": "Assets\\Slides\\TheGrateFilter\\TheGrateFilter_00004.png"
+    },
+    {
+      "Path": "Assets\\Slides\\TheGrateFilter\\TheGrateFilter_00005.png"
+    },
+    {
+      "Path": "Assets\\Slides\\TheGrateFilter\\TheGrateFilter_00006.png"
+    },
+    {
+      "Path": "Assets\\Slides\\TheGrateFilter\\TheGrateFilter_00007.png"
+    },
+    {
+      "Path": "Assets\\Slides\\TheGrateFilter\\TheGrateFilter_00008.png"
+    },
+    {
+      "Path": "Assets\\Slides\\TheGrateFilter\\TheGrateFilter_00009.png"
+    },
+    {
+      "Path": "Assets\\Slides\\TheGrateFilter\\TheGrateFilter_00010.png"
+    },
+    {
+      "Path": "Assets\\Slides\\TheGrateFilter\\TheGrateFilter_00011.png"
+    },
+    {
+      "Path": "Assets\\Slides\\TheGrateFilter\\TheGrateFilter_00012.png"
+    },
+    {
+      "Path": "Assets\\Slides\\TheGrateFilter\\TheGrateFilter_00013.png"
+    },
+    {
+      "Path": "Assets\\Slides\\TheGrateFilter\\TheGrateFilter_00014.png"
+    },
+    {
+      "Path": "Assets\\Slides\\TheGrateFilter\\TheGrateFilter_00015.png"
+    },
+    {
+      "Path": "Assets\\Slides\\TheGrateFilter\\TheGrateFilter_00016.png"
+    },
+    {
+      "Path": "Assets\\Slides\\TheGrateFilter\\TheGrateFilter_00017.png"
+    },
+    {
+      "Path": "Assets\\Slides\\TheGrateFilter\\TheGrateFilter_00018.png"
+    },
+    {
+      "Path": "Assets\\Slides\\TheGrateFilter\\TheGrateFilter_00019.png"
+    },
+    {
+      "Path": "Assets\\Slides\\TheGrateFilter\\TheGrateFilter_00020.png"
+    },
+    {
+      "Path": "Assets\\Slides\\TheGrateFilter\\TheGrateFilter_00021.png"
+    },
+    {
+      "Path": "Assets\\Slides\\TheGrateFilter\\TheGrateFilter_00022.png"
+    },
+    {
+      "Path": "Assets\\Slides\\TheGrateFilter\\TheGrateFilter_00023.png"
+    },
+    {
+      "Path": "Assets\\Slides\\TheGrateFilter\\TheGrateFilter_00024.png"
+    },
+    {
+      "Path": "Assets\\Slides\\TheGrateFilter\\TheGrateFilter_00025.png"
+    },
+    {
+      "Path": "Assets\\Slides\\TheGrateFilter\\TheGrateFilter_00026.png"
+    },
+    {
+      "Path": "Assets\\Slides\\TheGrateFilter\\TheGrateFilter_00027.png"
+    },
+    {
+      "Path": "Assets\\Slides\\TheGrateFilter\\TheGrateFilter_00028.png"
+    },
+    {
+      "Path": "Assets\\Slides\\TheGrateFilter\\TheGrateFilter_00029.png"
+    },
+    {
+      "Path": "Assets\\Slides\\TheGrateFilter\\TheGrateFilter_00030.png"
+    }
+  ]
+}

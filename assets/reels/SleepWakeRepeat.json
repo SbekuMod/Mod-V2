@@ -1,0 +1,182 @@
+{
+  "Name": "SleepWakeRepeat_Reel",
+  "Prefab": "Assets/Models/Reel.prefab",
+  "Parent": "RingWorld_Body",
+  "Sector": "Sector_RingWorld",
+  "Signal": "SLEEP_WAKE_REPEAT",
+  "SignalAudio": "SBK_SIGNALSCOPE",
+  "InitialRotation": {
+    "X": 354.6163,
+    "Y": 300.4565,
+    "Z": 270
+  },
+  "InitialPosition": {
+    "X": -145.1429,
+    "Y": -54.8283,
+    "Z": -255.5319
+  },
+  "Type": "SLIDE",
+  "Slides": [
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00000.png"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00001.png",
+      "BackdropAudio": "DREAM"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00002.png"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00003.png"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00004.png"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00005.png"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00006.png"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00007.png"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00008.png",
+      "BeatAudio": "WAKE"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00009.png",
+      "BeatAudio": "CLOCK"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00010.png"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00011.png"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00012.png"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00013.png"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00014.png"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00015.png",
+      "BeatAudio": "CRUNCH"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00016.png",
+      "BeatAudio": "BELLS_MUFFLED"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00017.png"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00018.png"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00019.png",
+      "BeatAudio": "BELLS"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00020.png"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00021.png"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00022.png"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00023.png"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00024.png"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00025.png"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00026.png"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00027.png"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00028.png"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00029.png",
+      "BeatAudio": "SPLASH"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00030.png",
+      "BeatAudio": "CAMPFIRE"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00031.png"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00032.png"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00033.png"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00034.png"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00035.png"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00036.png"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00037.png"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00038.png"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00039.png",
+      "BeatAudio": "ELK_KILL"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00040.png"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00041.png"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00042.png",
+      "BeatAudio": "BLOW"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00043.png"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00044.png",
+      "BeatAudio": "CLOCK"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00045.png"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00046.png"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00047.png"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00048.png"
+    },
+    {
+      "Path": "Assets\\Slides\\SleepWakeRepeat\\SleepWakeRepeat_00049.png"
+    }
+  ]
+}

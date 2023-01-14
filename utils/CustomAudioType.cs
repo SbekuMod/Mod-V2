@@ -1,0 +1,41 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.Serialization;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SbekuMod.utils
+{
+    public enum CustomAudioType
+    {
+        [EnumMember(Value = "CUSTOM_REEL_SLIDE_BG")]
+        CUSTOM_REEL_SLIDE_BG = 1011,
+        [EnumMember(Value = "SBK_SIGNALSCOPE")]
+        SBK_SIGNALSCOPE = 1012,
+        [EnumMember(Value = "TEST_ENDING")]
+        TEST_ENDING = 1013,
+        [EnumMember(Value = "DREAM")]
+        DREAM = 1014,
+        [EnumMember(Value = "BELLS")]
+        BELLS = 1015,
+        [EnumMember(Value = "CAMPFIRE")]
+        CAMPFIRE = 1016,
+        [EnumMember(Value = "ELK_KILL")]
+        ELK_KILL = 1017,
+        [EnumMember(Value = "SPLASH")]
+        SPLASH = 1018,
+        [EnumMember(Value = "WAKE")]
+        WAKE = 1019,
+        [EnumMember(Value = "BELLS_MUFFLED")]
+        BELLS_MUFFLED = 1020,
+        [EnumMember(Value = "CLOCK")]
+        CLOCK = 1021,
+        [EnumMember(Value = "CRUNCH")]
+        CRUNCH = 1022,
+        [EnumMember(Value = "THE_GRATE_FILTER")]
+        THE_GRATE_FILTER = 1023,
+        [EnumMember(Value = "BLOW")]
+        BLOW = 1024,
+    }
+}
