@@ -30,6 +30,8 @@ namespace SbekuMod.patches
             { CustomAudioType.CRUNCH, "Assets/Sounds/Crunch.mp3" },
             { CustomAudioType.THE_GRATE_FILTER, "Assets/Sounds/TheGrateFilter.mp3" },
             { CustomAudioType.BLOW, "Assets/Sounds/Soffione.mp3" },
+            { CustomAudioType.GHOST_IN_THE_MACHINE, "Assets/Sounds/GhostInTheMachine.mp3" },
+            { CustomAudioType.GHOST_IN_THE_MACHINE_SIGNAL, "Assets/Sounds/GhostInTheMachine_Muffled.mp3" },
         };
 
         private static bool IsInitialized = false;

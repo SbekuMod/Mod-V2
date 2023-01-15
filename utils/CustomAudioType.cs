@@ -37,5 +37,9 @@ namespace SbekuMod.utils
         THE_GRATE_FILTER = 1023,
         [EnumMember(Value = "BLOW")]
         BLOW = 1024,
+        [EnumMember(Value = "GHOST_IN_THE_MACHINE")]
+        GHOST_IN_THE_MACHINE = 1025,
+        [EnumMember(Value = "GHOST_IN_THE_MACHINE_SIGNAL")]
+        GHOST_IN_THE_MACHINE_SIGNAL = 1026,
     }
 }

@@ -27,7 +27,8 @@ namespace SbekuMod.utils
             "SleepWakeRepeat",
             "TheGrateFilter",
             "1_900",
-            "NeverGetMeAlive"
+            "NeverGetMeAlive",
+            "GhostInTheMachine"
         };
 
         private static readonly Dictionary<string, GameObject> PrefabCache = new();
@@ -129,8 +130,16 @@ namespace SbekuMod.utils
                     reel.transform.SetParent(sectorVillage.transform);
                 }
 
+                // FIND A WAY TO DISABLE THIS SCRIPT WHEN REEL OUTSIDE COCKPIT
+                HideableFromEntryway hideableFromEntryway = null;
+                if (!string.IsNullOrEmpty(reelData.Entryway))
+                {
+                    hideableFromEntryway = reel.AddComponent<HideableFromEntryway>();
+                    hideableFromEntryway.Setup(reelData.Entryway);
+                }
+
                 if (reelData.Type == ReelType.SLIDE)
-                    reel.AddComponent<ExternalSlideReel>().Setup(slides.ToArray());
+                    reel.AddComponent<ExternalSlideReel>().Setup(slides.ToArray(), hideableFromEntryway: hideableFromEntryway);
 
                 if (reelData.Type == ReelType.PROJECTION)
                     reel.AddComponent<ExternalProjectionReel>().Setup(slides.ToArray());
@@ -142,7 +151,6 @@ namespace SbekuMod.utils
                 var rotation = reel.transform.localRotation;
                 rotation.eulerAngles = new Vector3(rotationData.X, rotationData.Y, rotationData.Z);
                 reel.transform.localRotation = rotation;
-
 
                 SbekuMod.Instance.ModHelper.Console.WriteLine($"REEL {reel.name} LOADED");
             }catch(Exception e)

@@ -13,7 +13,7 @@ namespace SbekuMod.components
 
         private AudioSignal audioSignal;
 
-        public void Setup(SlideData[] slides)
+        public void Setup(SlideData[] slides, HideableFromEntryway hideableFromEntryway = null)
         {
             try
             {
@@ -39,6 +39,17 @@ namespace SbekuMod.components
                         audioSignal._owAudioSource.Stop();
                     }
                 };
+
+                if(hideableFromEntryway != null)
+                {
+                    slideReelItem.onPickedUp += (item) =>
+                    {
+                        if(!hideableFromEntryway.IsVisible)
+                            hideableFromEntryway.Toggle(true);
+
+                        hideableFromEntryway.enabled = false;
+                    };
+                }
 
             }
             catch (Exception e)

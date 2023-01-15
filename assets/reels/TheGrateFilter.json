@@ -3,6 +3,7 @@
   "Prefab": "Assets/Models/Reel.prefab",
   "Parent": "RingWorld_Body",
   "Sector": "Sector_RingWorld",
+  "Entryway": "StationCockpit_Entryway",
   "Signal": "THE_GRATE_FILTER",
   "SignalAudio": "SBK_SIGNALSCOPE",
   "InitialRotation": {

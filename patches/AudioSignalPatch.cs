@@ -26,6 +26,8 @@ namespace SbekuMod.patches
             ACHIEVEMENT_1_900 = 105,
             [EnumMember(Value = "NEVER_GET_ME_ALIVE")]
             NEVER_GET_ME_ALIVE = 106,
+            [EnumMember(Value = "GHOST_IN_THE_MACHINE")]
+            GHOST_IN_THE_MACHINE = 107,
         }
 
         [HarmonyPrefix]
@@ -49,6 +51,9 @@ namespace SbekuMod.patches
                     return false;
                 case CustomSignalName.NEVER_GET_ME_ALIVE:
                     __result = "NON MI PRENDERETE MAI VIVO";
+                    return false;
+                case CustomSignalName.GHOST_IN_THE_MACHINE:
+                    __result = "FANTASMI NELLA MACCHINA";
                     return false;
             }
 

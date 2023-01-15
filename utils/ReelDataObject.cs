@@ -44,6 +44,7 @@ namespace SbekuMod.utils
         public string Name { get; set; }
         public string Prefab { get; set; }
         public string Parent { get; set; }
+        public string Entryway { get; set; }
         public string? Sector { get; set; }
         [JsonConverter(typeof(StringEnumConverter))]
         public CustomSignalName? Signal;

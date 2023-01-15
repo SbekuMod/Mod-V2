@@ -1,0 +1,277 @@
+{
+  "Name": "GhostInTheMachine_Reel",
+  "Prefab": "Assets/Models/Reel.prefab",
+  "Parent": "Sector_Cockpit",
+  "Sector": "Sector_RingWorld",
+  "Signal": "GHOST_IN_THE_MACHINE",
+  "SignalAudio": "GHOST_IN_THE_MACHINE_SIGNAL",
+  "InitialRotation": {
+    "X": 271.2108,
+    "Y": 212.0084,
+    "Z": 90.0013
+  },
+  "InitialPosition": {
+    "X": -237.055,
+    "Y": -75.057,
+    "Z": 153.8967
+  },
+  "Type": "SLIDE",
+  "Slides": [
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00000.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00001.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00002.png",
+      "BackdropAudio": "GHOST_IN_THE_MACHINE"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00003.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00004.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00005.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00006.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00007.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00008.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00009.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00010.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00011.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00012.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00013.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00014.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00015.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00016.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00017.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00018.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00019.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00020.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00021.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00022.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00023.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00024.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00025.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00026.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00027.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00028.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00029.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00030.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00031.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00032.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00033.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00034.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00035.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00036.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00037.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00038.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00039.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00040.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00041.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00042.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00043.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00044.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00045.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00046.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00047.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00048.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00049.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00050.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00051.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00052.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00053.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00054.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00055.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00056.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00057.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00058.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00059.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00060.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00061.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00062.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00063.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00064.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00065.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00066.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00067.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00068.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00069.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00070.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00071.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00072.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00073.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00074.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00075.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00076.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00077.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00078.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00079.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00080.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00081.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00082.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00083.png"
+    },
+    {
+      "Path": "Assets\\Slides\\GhostInTheMachine\\GhostInTheMachine_00084.png"
+    }
+  ]
+}
