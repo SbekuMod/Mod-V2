@@ -18,14 +18,17 @@
   "Type": "SLIDE",
   "Slides": [
     {
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00000.png"
+    },
+    {
       "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00001.png"
     },
     {
-      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00002.png"
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00002.png",
+      "BackdropAudio": "DREAM"
     },
     {
-      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00003.png",
-      "BackdropAudio": "DREAM"
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00003.png"
     },
     {
       "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00004.png"

@@ -28,7 +28,8 @@ namespace SbekuMod.utils
             "TheGrateFilter",
             "1_900",
             "NeverGetMeAlive",
-            "GhostInTheMachine"
+            "GhostInTheMachine",
+            "TestEndVision"
         };
 
         private static readonly Dictionary<string, GameObject> PrefabCache = new();
@@ -130,7 +131,6 @@ namespace SbekuMod.utils
                     reel.transform.SetParent(sectorVillage.transform);
                 }
 
-                // FIND A WAY TO DISABLE THIS SCRIPT WHEN REEL OUTSIDE COCKPIT
                 HideableFromEntryway hideableFromEntryway = null;
                 if (!string.IsNullOrEmpty(reelData.Entryway))
                 {

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Collections.Generic;
 using System.IO;
 
+
 namespace SbekuMod
 {
     internal class Popups
@@ -11,9 +12,10 @@ namespace SbekuMod
         private static readonly string BASE_PATH = "assets/popups";
         public static void ShowWelcomePopup()
         {
-            SbekuMod.Instance.ModHelper.Console.WriteLine(SbekuMod.EventStorage.Get().HasSeenWelcomeScreen.ToString());
+            var modInstance = SbekuMod.Instance;
+            modInstance.ModHelper.Console.WriteLine(modInstance.EventStorage.Get().HasSeenWelcomeScreen.ToString());
 
-            if (SbekuMod.EventStorage.Get().HasSeenWelcomeScreen) return;
+            if (modInstance.EventStorage.Get().HasSeenWelcomeScreen) return;
 
             string filePath = Path.Combine(UtilityHelper.GetProjectBasePath(), BASE_PATH, "welcome.txt");
 
@@ -21,13 +23,13 @@ namespace SbekuMod
 
             var textPopup = File.ReadAllText(filePath);
 
-            var popup = SbekuMod.Instance.ModHelper.Menus.PopupManager.CreateMessagePopup(textPopup);
+            var popup = modInstance.ModHelper.Menus.PopupManager.CreateMessagePopup(textPopup);
             popup.OnConfirm += () =>
             {
-                SbekuMod.Instance.ModHelper.Console.WriteLine("CONFIRMED");
+                modInstance.ModHelper.Console.WriteLine("CONFIRMED");
 
-                SbekuMod.EventStorage.Get().HasSeenWelcomeScreen = true;
-                SbekuMod.EventStorage.Save();
+                modInstance.EventStorage.Get().HasSeenWelcomeScreen = true;
+                modInstance.EventStorage.Save();
             };
 
         }
@@ -41,6 +43,8 @@ namespace SbekuMod
 
         public static void ShowCreditsPopup()
         {
+            SbekuMod.Instance.EventStorage.Get().HasSeenEnding = true;
+            SbekuMod.Instance.EventStorage.Save();
 
             string filePath = Path.Combine(UtilityHelper.GetProjectBasePath(), BASE_PATH, "credits.txt");
 

@@ -62,6 +62,8 @@ namespace SbekuMod.components
                     mindProjector.Play(true);
                 };
 
+                
+
                 mindProjector.OnProjectionComplete += () =>
                 {
                     if (lightAnimator != null) lightAnimator.SetBehaviour(LightAnimator.LightBehaviour.MinIntensity, 1);

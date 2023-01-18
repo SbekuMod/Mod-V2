@@ -13,7 +13,7 @@ namespace SbekuMod
     public class SbekuMod : ModBehaviour
     {
         public static SbekuMod Instance;
-        public static EventStorage EventStorage;
+        public EventStorage EventStorage;
         public static string CurrentLanguage = null;
 
         private static readonly string RELOAD_DIALOGS_SETTING_KEY = "Premi K per ricaricare i dialoghi";
@@ -44,40 +44,44 @@ namespace SbekuMod
             ModHelper.Console.WriteLine("CURRENT LANGUAGE: " + CurrentLanguage);
         }
 
+        private void InitializeMainMenu ()
+        {
+            VersionText.Setup();
+            MainMenuUtility.ReplaceDLCLogo();
+            MainMenuUtility.ReplaceMusic();
+
+            if (Popups.CanShowCredits())
+            {
+                var button = ModHelper.Menus.MainMenu.OptionsButton.Duplicate("CREDITI ECHOES OF THE DESERT");
+                button.OnClick += () => Popups.ShowCreditsPopup();
+            }
+        }
+
+        private void InitializeContent ()
+        {
+            PlayerData.LearnFrequency((SignalFrequency)CustomSignalFrequency.CUSTOM_REELS);
+
+            ShipLogUtility.RevealAllLoadedFacts();
+        }
+
         private void Start()
         {
-            EventStorage = new EventStorage();
             InitializeLanguage();
+            EventStorage = new EventStorage();
+            StandaloneProfileManager.SharedInstance.OnProfileReadDone += () => EventStorage.Initialize();
 
             var titleScreenManager = FindObjectOfType<TitleScreenManager>();
-            titleScreenManager._cameraController.OnLogoPanComplete += () =>
-            {
-                Popups.ShowWelcomePopup();
-            };
+            titleScreenManager._cameraController.OnLogoPanComplete += () => Popups.ShowWelcomePopup();
 
-            ModHelper.Menus.MainMenu.OnInit += () =>
-            {
-                MainMenuUtility.ReplaceDLCLogo();
-
-                if (Popups.CanShowCredits())
-                {
-                    var button = ModHelper.Menus.MainMenu.OptionsButton.Duplicate("CREDITI MOD SNM");
-                    button.OnClick += () => Popups.ShowCreditsPopup();
-                }
-            };
+            ModHelper.Menus.MainMenu.OnInit += () => InitializeMainMenu();
 
             LoadManager.OnCompleteSceneLoad += (scene, loadedScene) =>
             {
-                if (loadedScene != OWScene.SolarSystem) return;
-
-                ReelSetup.SetupReels();
+                if (loadedScene == OWScene.SolarSystem)
+                    ReelSetup.SetupReels();
             };
 
-            GlobalMessenger.AddListener("PutOnHelmet", () => {
-                PlayerData.LearnFrequency((SignalFrequency)CustomSignalFrequency.CUSTOM_REELS);
-
-                ShipLogUtility.RevealAllLoadedFacts();
-            });
+            GlobalMessenger.AddListener("PutOnHelmet", InitializeContent);
 
             ModHelper.Console.WriteLine($"{nameof(SbekuMod)} initialized!", MessageType.Success);
         }

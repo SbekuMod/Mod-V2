@@ -32,6 +32,8 @@ namespace SbekuMod.patches
             { CustomAudioType.BLOW, "Assets/Sounds/Soffione.mp3" },
             { CustomAudioType.GHOST_IN_THE_MACHINE, "Assets/Sounds/GhostInTheMachine.mp3" },
             { CustomAudioType.GHOST_IN_THE_MACHINE_SIGNAL, "Assets/Sounds/GhostInTheMachine_Muffled.mp3" },
+            { CustomAudioType.SNM_ENDING, "Assets/Sounds/SNMEnding.mp3" },
+            { CustomAudioType.SNM_MAIN_MENU, "Assets/Sounds/SNMMainMenu.mp3" },
         };
 
         private static bool IsInitialized = false;

@@ -262,7 +262,7 @@
     <None Update="assets\reels\testReel4.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="assets\reels\testReel.json">
+    <None Update="assets\reels\TestEndVision.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="assets\translations\ITA.xml">

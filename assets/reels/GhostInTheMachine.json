@@ -1,19 +1,19 @@
 {
   "Name": "GhostInTheMachine_Reel",
   "Prefab": "Assets/Models/Reel.prefab",
-  "Parent": "Sector_Cockpit",
+  "Parent": "RingWorld_Body",
   "Sector": "Sector_RingWorld",
   "Signal": "GHOST_IN_THE_MACHINE",
   "SignalAudio": "GHOST_IN_THE_MACHINE_SIGNAL",
   "InitialRotation": {
-    "X": 271.2108,
-    "Y": 212.0084,
-    "Z": 90.0013
+    "X": 273.1147,
+    "Y": 32.0106,
+    "Z": 269.9991
   },
   "InitialPosition": {
-    "X": -237.055,
-    "Y": -75.057,
-    "Z": 153.8967
+    "X": -237.235,
+    "Y": -74.7294,
+    "Z": 153.609
   },
   "Type": "SLIDE",
   "Slides": [

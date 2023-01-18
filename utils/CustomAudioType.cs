@@ -41,5 +41,9 @@ namespace SbekuMod.utils
         GHOST_IN_THE_MACHINE = 1025,
         [EnumMember(Value = "GHOST_IN_THE_MACHINE_SIGNAL")]
         GHOST_IN_THE_MACHINE_SIGNAL = 1026,
+        [EnumMember(Value = "SNM_ENDING")]
+        SNM_ENDING = 1027,
+        [EnumMember(Value = "SNM_MAIN_MENU")]
+        SNM_MAIN_MENU = 1028,
     }
 }
