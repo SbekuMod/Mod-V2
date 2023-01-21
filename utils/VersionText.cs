@@ -31,7 +31,7 @@ namespace SbekuMod.utils
                 if (versionText == null) return;
 
                 var text = versionText.GetComponent<Text>();
-                text.text = $"{text.text} | {manifest.name} - v{manifest.version}-PreAlpha";
+                text.text = $"{text.text} | {manifest.name} - v{manifest.version}";
 
             };
 

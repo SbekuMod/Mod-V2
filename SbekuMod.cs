@@ -7,6 +7,9 @@ using SbekuMod.utils;
 using UnityEngine.InputSystem;
 using UnityEngine;
 using static SbekuMod.patches.AudioSignalPatch;
+using SbekuMod.components;
+using static NomaiWarpPlatform;
+using System;
 
 namespace SbekuMod
 {
@@ -15,6 +18,8 @@ namespace SbekuMod
         public static SbekuMod Instance;
         public EventStorage EventStorage;
         public static string CurrentLanguage = null;
+        public CreditsController creditsController = null;
+
 
         private static readonly string RELOAD_DIALOGS_SETTING_KEY = "Premi K per ricaricare i dialoghi";
         private static readonly string UNLOCK_EVERYTHING_SETTING_KEY = "Premi U per sbloccare tutti gli eventi";
@@ -25,8 +30,19 @@ namespace SbekuMod
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
         }
 
+        private bool IsConfirming() => 
+            OWInput.IsPressed(InputLibrary.confirm) || 
+            OWInput.IsPressed(InputLibrary.confirm2) ||
+            OWInput.IsPressed(InputLibrary.cancel) || 
+            OWInput.IsPressed(InputLibrary.cancelRebinding1) ||
+            OWInput.IsPressed(InputLibrary.cancelRebinding2);
+
         private void Update()
         {
+
+            if(creditsController != null && creditsController.IsPlaying && IsConfirming())
+                creditsController.Stop();
+
             if (ModHelper.Config.GetSettingsValue<bool>(UNLOCK_EVERYTHING_SETTING_KEY) && Keyboard.current.uKey.wasPressedThisFrame)
                 ShipLogUtility.RevealAllFacts();
 
@@ -49,22 +65,57 @@ namespace SbekuMod
             VersionText.Setup();
             MainMenuUtility.ReplaceDLCLogo();
             MainMenuUtility.ReplaceMusic();
+            creditsController = SetupCredits.Setup();
 
-            if (Popups.CanShowCredits())
+
+            var button = ModHelper.Menus.MainMenu.OptionsButton.Duplicate("CREDITI ECHOES OF THE DESERT");
+            button.OnClick += () =>
             {
-                var button = ModHelper.Menus.MainMenu.OptionsButton.Duplicate("CREDITI ECHOES OF THE DESERT");
-                button.OnClick += () => Popups.ShowCreditsPopup();
-            }
+                if (EventStorage.Get().HasSeenEnding)
+                    creditsController.Play();
+                else
+                    Popups.ShowCreditsToBeUnlocked();
+                
+            };
+
         }
 
         private void InitializeContent ()
         {
-            PlayerData.LearnFrequency((SignalFrequency)CustomSignalFrequency.CUSTOM_REELS);
+            if (!PlayerData._currentGameSave.dictConditions.TryGetValue("LAUNCH_CODES_GIVEN", out var hasLaunchCodes))
+                hasLaunchCodes = false;
+
+            if (!hasLaunchCodes) return;
 
             ShipLogUtility.RevealAllLoadedFacts();
         }
 
-        private void Start()
+        private void InitializeDlcContent(Signalscope scope)
+        {
+            if (!PlayerData._currentGameSave.dictConditions.TryGetValue("LAUNCH_CODES_GIVEN", out var hasLaunchCodes))
+                hasLaunchCodes = false;
+
+            if (!hasLaunchCodes) return;
+            try
+            {
+                var frequency = (SignalFrequency)CustomSignalFrequency.CUSTOM_REELS;
+                int num = AudioSignal.FrequencyToIndex(frequency);
+                ModHelper.Console.WriteLine($"TRYING TO LEARN FREQUENCY {PlayerData._currentGameSave.knownFrequencies[num]}");
+                if (!PlayerData._currentGameSave.knownFrequencies[num])
+                {
+                    PlayerData.LearnFrequency(frequency);
+                    string text = UITextLibrary.GetString(UITextType.NotificationNewFreq) + " <color=orange>" + AudioSignal.FrequencyToString(frequency, false) + "</color>";
+                    NotificationData notificationData = new(NotificationTarget.All, text, 10f, true);
+                    NotificationManager.SharedInstance.PostNotification(notificationData, false);
+                }
+            }
+            catch (Exception e)
+            {
+                ModHelper.Console.WriteLine($"ErrorLearning Frquency {e.Message}");
+            }
+        }
+
+        public void Start()
         {
             InitializeLanguage();
             EventStorage = new EventStorage();
@@ -78,10 +129,18 @@ namespace SbekuMod
             LoadManager.OnCompleteSceneLoad += (scene, loadedScene) =>
             {
                 if (loadedScene == OWScene.SolarSystem)
+                {
+                    if (!PlayerData._currentGameSave.dictConditions.TryGetValue("LAUNCH_CODES_GIVEN", out var hasLaunchCodes))
+                        hasLaunchCodes = false;
+
+                    if (!hasLaunchCodes) return;
+
                     ReelSetup.SetupReels();
+                }
             };
 
             GlobalMessenger.AddListener("PutOnHelmet", InitializeContent);
+            GlobalMessenger<Signalscope>.AddListener("EquipSignalscope", new Callback<Signalscope>(InitializeDlcContent));
 
             ModHelper.Console.WriteLine($"{nameof(SbekuMod)} initialized!", MessageType.Success);
         }

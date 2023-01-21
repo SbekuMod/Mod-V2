@@ -1,5 +1,6 @@
 ﻿using HarmonyLib;
 using Newtonsoft.Json.Linq;
+using OWML.ModHelper;
 using System;
 using System.Runtime.Serialization;
 using UnityEngine;
@@ -28,6 +29,8 @@ namespace SbekuMod.patches
             NEVER_GET_ME_ALIVE = 106,
             [EnumMember(Value = "GHOST_IN_THE_MACHINE")]
             GHOST_IN_THE_MACHINE = 107,
+            [EnumMember(Value = "FIRE_ARROWS")]
+            FIRE_ARROWS = 108,
         }
 
         [HarmonyPrefix]
@@ -54,6 +57,9 @@ namespace SbekuMod.patches
                     return false;
                 case CustomSignalName.GHOST_IN_THE_MACHINE:
                     __result = "FANTASMI NELLA MACCHINA";
+                    return false;
+                case CustomSignalName.FIRE_ARROWS:
+                    __result = "LANCI INFUOCATI";
                     return false;
             }
 

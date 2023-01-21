@@ -34,6 +34,19 @@ namespace SbekuMod
 
         }
 
+        public static void ShowCreditsToBeUnlocked()
+        {
+
+            string filePath = Path.Combine(UtilityHelper.GetProjectBasePath(), BASE_PATH, "credits_not_available.txt");
+
+            if (!File.Exists(filePath)) return;
+
+            var textPopup = File.ReadAllText(filePath);
+
+           SbekuMod.Instance.ModHelper.Menus.PopupManager.CreateMessagePopup(textPopup);
+
+        }
+
         public static bool CanShowCredits()
         {
             string filePath = Path.Combine(UtilityHelper.GetProjectBasePath(), BASE_PATH, "credits.txt");

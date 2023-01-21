@@ -29,11 +29,18 @@ namespace SbekuMod.utils
             "1_900",
             "NeverGetMeAlive",
             "GhostInTheMachine",
-            "TestEndVision"
+            "TestEndVision",
+            "FireArrows"
         };
 
+        private static List<CustomAudioSignal> activeAudioSignals = new List<CustomAudioSignal>();
         private static readonly Dictionary<string, GameObject> PrefabCache = new();
         public static void SetupReels() {
+
+            //CLEANUP PREVIOUS SIGNALS
+            foreach (var audioSignal in activeAudioSignals)
+                audioSignal.OnDestroy();
+            activeAudioSignals = new List<CustomAudioSignal>();
 
             var reelBasePath = Path.Combine(UtilityHelper.GetProjectBasePath(), BASE_PATH);
 
@@ -123,6 +130,7 @@ namespace SbekuMod.utils
                         audioSignal._sector = GameObject.Find(reelData.Sector).GetComponent<Sector>();
 
                     audioSignal.Setup((SignalFrequency)CustomSignalFrequency.CUSTOM_REELS, (SignalName)reelData.Signal.Value, 0.25f);
+                    activeAudioSignals.Add(audioSignal);
                 }
 
                 if (reelData.Parent != null)

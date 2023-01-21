@@ -1,0 +1,88 @@
+{
+  "Name": "FireArrows_Reel",
+  "Prefab": "Assets/Models/Reel.prefab",
+  "Parent": "RingWorld_Body",
+  "Sector": "Sector_RingWorld",
+  "Signal": "FIRE_ARROWS",
+  "SignalAudio": "SBK_SIGNALSCOPE",
+  "InitialRotation": {
+    "X": 298.5598,
+    "Y": 135.0821,
+    "Z": 269.9999
+  },
+  "InitialPosition": {
+    "X": 184.1105,
+    "Y": 83.245,
+    "Z": 179.1604
+  },
+  "Type": "SLIDE",
+  "Slides": [
+    {
+      "Path": "Assets\\Slides\\FireArrows\\FireArrows_00000.png"
+    },
+    {
+      "Path": "Assets\\Slides\\FireArrows\\FireArrows_00001.png",
+      "BackdropAudio": "DREAM"
+    },
+    {
+      "Path": "Assets\\Slides\\FireArrows\\FireArrows_00002.png"
+    },
+    {
+      "Path": "Assets\\Slides\\FireArrows\\FireArrows_00003.png"
+    },
+    {
+      "Path": "Assets\\Slides\\FireArrows\\FireArrows_00004.png"
+    },
+    {
+      "Path": "Assets\\Slides\\FireArrows\\FireArrows_00005.png"
+    },
+    {
+      "Path": "Assets\\Slides\\FireArrows\\FireArrows_00006.png"
+    },
+    {
+      "Path": "Assets\\Slides\\FireArrows\\FireArrows_00007.png"
+    },
+    {
+      "Path": "Assets\\Slides\\FireArrows\\FireArrows_00008.png"
+    },
+    {
+      "Path": "Assets\\Slides\\FireArrows\\FireArrows_00009.png"
+    },
+    {
+      "Path": "Assets\\Slides\\FireArrows\\FireArrows_00010.png"
+    },
+    {
+      "Path": "Assets\\Slides\\FireArrows\\FireArrows_00011.png"
+    },
+    {
+      "Path": "Assets\\Slides\\FireArrows\\FireArrows_00012.png"
+    },
+    {
+      "Path": "Assets\\Slides\\FireArrows\\FireArrows_00013.png"
+    },
+    {
+      "Path": "Assets\\Slides\\FireArrows\\FireArrows_00014.png"
+    },
+    {
+      "Path": "Assets\\Slides\\FireArrows\\FireArrows_00015.png"
+    },
+    {
+      "Path": "Assets\\Slides\\FireArrows\\FireArrows_00016.png"
+    },
+    {
+      "Path": "Assets\\Slides\\FireArrows\\FireArrows_00017.png"
+    },
+    {
+      "Path": "Assets\\Slides\\FireArrows\\FireArrows_00018.png"
+    },
+    {
+      "Path": "Assets\\Slides\\FireArrows\\FireArrows_00019.png"
+    },
+    {
+      "Path": "Assets\\Slides\\FireArrows\\FireArrows_00020.png"
+    },
+    {
+      "Path": "Assets\\Slides\\FireArrows\\FireArrows_00021.png"
+    }
+  ]
+}
