@@ -186,6 +186,10 @@
         <Text>No thanks, I’m good.</Text>
         <DialogueTarget>BUTTON_ACHIEVEMENT_MENU</DialogueTarget>
       </DialogueOption>
+      <DialogueOption>
+        <Text>PARADOX_EASTER_EGG_1</Text>
+        <DialogueTarget>PARADOX_EASTER_EGG_MENU</DialogueTarget>
+      </DialogueOption>
     </DialogueOptionsList>
   </DialogueNode>
 
@@ -253,6 +257,14 @@
         <DialogueTarget>QUANTIC_ENDING_MENU</DialogueTarget>
       </DialogueOption>
     </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>PARADOX_EASTER_EGG_MENU</Name>
+    <Dialogue>
+      <Page>PARADOX_EASTER_EGG_2</Page>
+      <Page>PARADOX_EASTER_EGG_3</Page>
+    </Dialogue>
   </DialogueNode>
 
   <DialogueNode>

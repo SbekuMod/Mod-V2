@@ -10,6 +10,7 @@ using static SbekuMod.patches.AudioSignalPatch;
 using SbekuMod.components;
 using static NomaiWarpPlatform;
 using System;
+using SbekuMod.patches;
 
 namespace SbekuMod
 {
@@ -18,7 +19,6 @@ namespace SbekuMod
         public static SbekuMod Instance;
         public EventStorage EventStorage;
         public static string CurrentLanguage = null;
-        public CreditsController creditsController = null;
 
 
         private static readonly string RELOAD_DIALOGS_SETTING_KEY = "Premi K per ricaricare i dialoghi";
@@ -39,10 +39,6 @@ namespace SbekuMod
 
         private void Update()
         {
-
-            if(creditsController != null && creditsController.IsPlaying && IsConfirming())
-                creditsController.Stop();
-
             if (ModHelper.Config.GetSettingsValue<bool>(UNLOCK_EVERYTHING_SETTING_KEY) && Keyboard.current.uKey.wasPressedThisFrame)
                 ShipLogUtility.RevealAllFacts();
 
@@ -65,14 +61,13 @@ namespace SbekuMod
             VersionText.Setup();
             MainMenuUtility.ReplaceDLCLogo();
             MainMenuUtility.ReplaceMusic();
-            creditsController = SetupCredits.Setup();
 
 
             var button = ModHelper.Menus.MainMenu.OptionsButton.Duplicate("CREDITI ECHOES OF THE DESERT");
             button.OnClick += () =>
             {
                 if (EventStorage.Get().HasSeenEnding)
-                    creditsController.Play();
+                    CreditsUtility.StartCredits(CreditsPatch.CustomCreditsType.FINAL);
                 else
                     Popups.ShowCreditsToBeUnlocked();
                 
@@ -135,6 +130,7 @@ namespace SbekuMod
 
                     if (!hasLaunchCodes) return;
 
+                    EasterEggUtility.InitializeParadoxEasterEgg();
                     ReelSetup.SetupReels();
                 }
             };
