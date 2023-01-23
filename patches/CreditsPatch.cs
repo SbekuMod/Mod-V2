@@ -56,6 +56,7 @@ namespace SbekuMod.patches
             switch (type)
             {
                 case CustomCreditsType.PARADOX:
+                    return AssetLibrary.GetAsset<VideoClip>("Assets/Credits_Paradox.mp4");
                 case CustomCreditsType.FINAL:
                 default:
                     return AssetLibrary.GetAsset<VideoClip>("Assets/Credits.mp4");
