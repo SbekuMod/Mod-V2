@@ -8,6 +8,7 @@ namespace SbekuMod.storage
     {
         public bool HasSeenWelcomeScreen { get; set; } = false;
         public bool HasSeenEnding { get; set; } = false;
+        public bool HasSeenBeginning { get; set; } = false;
     }
 
     public class EventStorage : StorageHandler<EventData>

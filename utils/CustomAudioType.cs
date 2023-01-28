@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Serialization;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Runtime.Serialization;
 
 namespace SbekuMod.utils
 {
@@ -45,5 +40,35 @@ namespace SbekuMod.utils
         SNM_ENDING = 1027,
         [EnumMember(Value = "SNM_MAIN_MENU")]
         SNM_MAIN_MENU = 1028,
+        [EnumMember(Value = "SNM_BEGINNING")]
+        SNM_BEGINNING = 1029,
+        //SIGNALSCOPE INDIVIDUAL SIGNALS
+        [EnumMember(Value = "SIGNALSCOPE_BANJO_1")]
+        SIGNALSCOPE_BANJO_1 = 1030,
+        [EnumMember(Value = "SIGNALSCOPE_BANJO_2")]
+        SIGNALSCOPE_BANJO_2 = 1031,
+        [EnumMember(Value = "SIGNALSCOPE_BOUZOUKI_1")]
+        SIGNALSCOPE_BOUZOUKI_1 = 1032,
+        [EnumMember(Value = "SIGNALSCOPE_BOW_BOUZOUKI")]
+        SIGNALSCOPE_BOW_BOUZOUKI = 1033,
+        [EnumMember(Value = "SIGNALSCOPE_BOWS")]
+        SIGNALSCOPE_BOWS = 1034,
+        [EnumMember(Value = "SIGNALSCOPE_CONTRABASS")]
+        SIGNALSCOPE_CONTRABASS = 1035,
+        [EnumMember(Value = "SIGNALSCOPE_GUITAR_1")]
+        SIGNALSCOPE_GUITAR_1 = 1036,
+        [EnumMember(Value = "SIGNALSCOPE_GUITAR_2")]
+        SIGNALSCOPE_GUITAR_2 = 1037,
+        [EnumMember(Value = "SIGNALSCOPE_GUITAR_3")]
+        SIGNALSCOPE_GUITAR_3 = 1038,
+        [EnumMember(Value = "SIGNALSCOPE_GUITAR_MELODY")]
+        SIGNALSCOPE_GUITAR_MELODY = 1039,
+        [EnumMember(Value = "SIGNALSCOPE_PERCUSSIONS")]
+        SIGNALSCOPE_PERCUSSIONS = 1040,
+        [EnumMember(Value = "SIGNALSCOPE_RHODES")]
+        SIGNALSCOPE_RHODES = 1041,
+        [EnumMember(Value = "SIGNALSCOPE_WOODWINDS")]
+        SIGNALSCOPE_WOODWINDS = 1042,
+        //
     }
 }

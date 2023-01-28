@@ -4,8 +4,9 @@
   "Parent": "RingWorld_Body",
   "Sector": "Sector_RingWorld",
   "Entryway": "StationCockpit_Entryway",
+  "SignalFrequency": "CUSTOM_REELS",
   "Signal": "THE_GRATE_FILTER",
-  "SignalAudio": "SBK_SIGNALSCOPE",
+  "SignalAudio": "SIGNALSCOPE_GUITAR_2",
   "InitialRotation": {
     "X": 277.213,
     "Y": 242.0616,

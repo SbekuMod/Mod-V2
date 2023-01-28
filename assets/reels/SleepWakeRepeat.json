@@ -3,8 +3,9 @@
   "Prefab": "Assets/Models/Reel.prefab",
   "Parent": "RingWorld_Body",
   "Sector": "Sector_RingWorld",
+  "SignalFrequency": "CUSTOM_REELS",
   "Signal": "SLEEP_WAKE_REPEAT",
-  "SignalAudio": "SBK_SIGNALSCOPE",
+  "SignalAudio": "SIGNALSCOPE_GUITAR_1",
   "InitialRotation": {
     "X": 354.6163,
     "Y": 300.4565,

@@ -93,7 +93,7 @@ namespace SbekuMod
             if (!hasLaunchCodes) return;
             try
             {
-                var frequency = (SignalFrequency)CustomSignalFrequency.CUSTOM_REELS;
+                var frequency = (SignalFrequency)CustomSignalFrequency.STORY_REELS;
                 int num = AudioSignal.FrequencyToIndex(frequency);
                 ModHelper.Console.WriteLine($"TRYING TO LEARN FREQUENCY {PlayerData._currentGameSave.knownFrequencies[num]}");
                 if (!PlayerData._currentGameSave.knownFrequencies[num])

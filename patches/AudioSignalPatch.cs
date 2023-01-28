@@ -13,7 +13,10 @@ namespace SbekuMod.patches
         // FREQUENCIES ARE POWERS OF 2
         public enum CustomSignalFrequency
         {
-            CUSTOM_REELS = 256
+            [EnumMember(Value = "CUSTOM_REELS")]
+            CUSTOM_REELS = 256,
+            [EnumMember(Value = "STORY_REELS")]
+            STORY_REELS = 512
         }
 
         public enum CustomSignalName
@@ -31,6 +34,8 @@ namespace SbekuMod.patches
             GHOST_IN_THE_MACHINE = 107,
             [EnumMember(Value = "FIRE_ARROWS")]
             FIRE_ARROWS = 108,
+            [EnumMember(Value = "BEGINNING")]
+            BEGINNING = 109,
         }
 
         [HarmonyPrefix]
@@ -61,6 +66,9 @@ namespace SbekuMod.patches
                 case CustomSignalName.FIRE_ARROWS:
                     __result = "LANCI INFUOCATI";
                     return false;
+                case CustomSignalName.BEGINNING:
+                    __result = "L'INIZIO DI... TUTTO QUESTO";
+                    return false;
             }
 
             return true;
@@ -73,6 +81,12 @@ namespace SbekuMod.patches
             if(index == 7)
             {
                 __result = (SignalFrequency)CustomSignalFrequency.CUSTOM_REELS;
+                return false;
+            }
+
+            if (index == 8)
+            {
+                __result = (SignalFrequency)CustomSignalFrequency.STORY_REELS;
                 return false;
             }
 
@@ -89,6 +103,12 @@ namespace SbekuMod.patches
                 return false;
             }
 
+            if ((CustomSignalFrequency)frequency == CustomSignalFrequency.STORY_REELS)
+            {
+                __result = 8;
+                return false;
+            }
+
             return true;
         }
 
@@ -99,6 +119,12 @@ namespace SbekuMod.patches
             if ((CustomSignalFrequency)frequency == CustomSignalFrequency.CUSTOM_REELS)
             {
                 __result = "ECHI DEL DESERTO";
+                return false;
+            }
+
+            if ((CustomSignalFrequency)frequency == CustomSignalFrequency.STORY_REELS)
+            {
+                __result = "ECHI DI STO CAZZO";
                 return false;
             }
             return true;
@@ -151,7 +177,7 @@ namespace SbekuMod.patches
                 __instance._signalStrength = Mathf.Clamp01(Mathf.InverseLerp(num2, num4, __instance._degreesFromScope));
             }
             // WHEN INSIDE THE STRANGER IGNORE ALL SIGNALS WITH THE EXCEPTION OF OUR CUSTOM REELS
-            if (Locator.GetCloakFieldController() != null && __instance._frequency != (SignalFrequency)CustomSignalFrequency.CUSTOM_REELS)
+            if (Locator.GetCloakFieldController() != null && __instance._frequency != (SignalFrequency)CustomSignalFrequency.CUSTOM_REELS && __instance._frequency != (SignalFrequency)CustomSignalFrequency.STORY_REELS)
             {
                 float num5 = 1f - Locator.GetCloakFieldController().playerCloakFactor;
                 __instance._signalStrength *= num5;

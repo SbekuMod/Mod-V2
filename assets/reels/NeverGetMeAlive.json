@@ -3,8 +3,9 @@
   "Prefab": "Assets/Models/Reel.prefab",
   "Parent": "RingWorld_Body",
   "Sector": "Sector_RingWorld",
+  "SignalFrequency": "CUSTOM_REELS",
   "Signal": "NEVER_GET_ME_ALIVE",
-  "SignalAudio": "SBK_SIGNALSCOPE",
+  "SignalAudio": "SIGNALSCOPE_BOW_BOUZOUKI",
   "InitialRotation": {
     "X": 25.1815,
     "Y": 216.4748,

@@ -18,8 +18,8 @@ namespace SbekuMod.patches
             SbekuMod.Instance.ModHelper.Console.WriteLine("RESET INIT");
             PlayerData._currentGameSave = new GameSave();
 
-            if (PlayerData._currentGameSave.knownFrequencies.Length < 8)
-                Array.Resize<bool>(ref PlayerData._currentGameSave.knownFrequencies, 8);
+            if (PlayerData._currentGameSave.knownFrequencies.Length < 9)
+                Array.Resize<bool>(ref PlayerData._currentGameSave.knownFrequencies, 9);
 
             StandaloneProfileManager.SharedInstance.SaveGame(PlayerData._currentGameSave, null, null, null);
 

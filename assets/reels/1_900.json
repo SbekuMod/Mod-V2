@@ -4,7 +4,8 @@
   "Parent": "RingWorld_Body",
   "Sector": "Sector_RingWorld",
   "Signal": "ACHIEVEMENT_1_900",
-  "SignalAudio": "SBK_SIGNALSCOPE",
+  "SignalFrequency": "CUSTOM_REELS",
+  "SignalAudio": "SIGNALSCOPE_BANJO_1",
   "InitialRotation": {
     "X": 16.0006,
     "Y": 74.3349,

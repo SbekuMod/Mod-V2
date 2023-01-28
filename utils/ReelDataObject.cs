@@ -45,11 +45,14 @@ namespace SbekuMod.utils
         public string Prefab { get; set; }
         public string Parent { get; set; }
         public string Entryway { get; set; }
+        public bool IsFirst { get; set; }
         public string? Sector { get; set; }
         [JsonConverter(typeof(StringEnumConverter))]
         public CustomSignalName? Signal;
         [JsonConverter(typeof(StringEnumConverter))]
         public CustomAudioType? SignalAudio { get; set; }
+        [JsonConverter(typeof(StringEnumConverter))]
+        public CustomSignalFrequency? SignalFrequency { get; set; }
         public PointData InitialRotation { get; set; }
         public PointData InitialPosition { get; set; }
 

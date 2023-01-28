@@ -1,0 +1,363 @@
+{
+  "Name": "Beginning_Reel",
+  "Prefab": "Assets/Models/Reel.prefab",
+  "Parent": "RingWorld_Body",
+  "Sector": "Sector_RingWorld",
+  "SignalFrequency": "STORY_REELS",
+  "Signal": "BEGINNING",
+  "SignalAudio": "SBK_SIGNALSCOPE",
+  "IsFirst": true,
+  "InitialRotation": {
+    "X": 74.5137,
+    "Y": 161.4054,
+    "Z": 172.4472
+  },
+  "InitialPosition": {
+    "X": 65.0345,
+    "Y": -28.9401,
+    "Z": -292.6359
+  },
+  "Type": "SLIDE",
+  "Slides": [
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00000.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00001.png",
+      "BackdropAudio": "SNM_BEGINNING"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00002.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00003.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00004.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00005.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00006.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00007.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00008.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00009.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00010.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00011.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00012.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00013.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00014.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00015.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00016.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00017.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00018.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00019.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00020.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00021.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00022.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00023.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00024.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00025.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00026.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00027.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00028.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00029.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00030.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00031.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00032.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00033.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00034.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00035.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00036.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00037.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00038.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00039.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00040.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00041.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00042.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00043.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00044.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00045.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00046.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00047.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00048.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00049.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00050.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00051.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00052.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00053.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00054.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00055.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00056.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00057.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00058.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00059.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00060.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00061.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00062.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00063.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00064.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00065.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00066.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00067.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00068.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00069.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00070.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00071.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00072.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00073.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00074.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00075.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00076.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00077.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00078.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00079.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00080.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00081.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00082.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00083.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00084.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00085.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00086.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00087.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00088.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00089.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00090.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00091.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00092.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00093.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00094.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00095.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00096.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00097.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00098.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00099.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00100.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00101.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00102.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00103.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00104.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00105.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00106.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00107.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00108.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00109.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00110.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00111.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Beginning\\Beginning_00112.png"
+    }
+  ]
+}

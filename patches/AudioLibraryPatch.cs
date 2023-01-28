@@ -34,6 +34,22 @@ namespace SbekuMod.patches
             { CustomAudioType.GHOST_IN_THE_MACHINE_SIGNAL, "Assets/Sounds/GhostInTheMachine_Muffled.mp3" },
             { CustomAudioType.SNM_ENDING, "Assets/Sounds/SNMEnding.mp3" },
             { CustomAudioType.SNM_MAIN_MENU, "Assets/Sounds/SNMMainMenu.mp3" },
+            { CustomAudioType.SNM_BEGINNING, "Assets/Sounds/SNMBeginning.mp3" },
+            //SIGNALSCOPE INDIVIDUAL SIGNALS
+            { CustomAudioType.SIGNALSCOPE_BANJO_1, "Assets/Sounds/Signals/banjo_1.mp3" },// 1_900
+            { CustomAudioType.SIGNALSCOPE_BANJO_2, "Assets/Sounds/Signals/banjo_2.mp3" },// FireArrows
+            { CustomAudioType.SIGNALSCOPE_BOUZOUKI_1, "Assets/Sounds/Signals/bouzouki_1.mp3" },// GhostInTheMachine
+            { CustomAudioType.SIGNALSCOPE_BOW_BOUZOUKI, "Assets/Sounds/Signals/bow_bouzouki.mp3" },// NeverGetMeAlive
+            { CustomAudioType.SIGNALSCOPE_BOWS, "Assets/Sounds/Signals/bows.mp3" },
+            { CustomAudioType.SIGNALSCOPE_CONTRABASS, "Assets/Sounds/Signals/contrabass.mp3" },
+            { CustomAudioType.SIGNALSCOPE_GUITAR_1, "Assets/Sounds/Signals/guitar_1.mp3" },// SleepWakeRepeat
+            { CustomAudioType.SIGNALSCOPE_GUITAR_2, "Assets/Sounds/Signals/guitar_2.mp3" },// TheGrateFilter
+            { CustomAudioType.SIGNALSCOPE_GUITAR_3, "Assets/Sounds/Signals/guitar_3.mp3" },
+            { CustomAudioType.SIGNALSCOPE_GUITAR_MELODY, "Assets/Sounds/Signals/guitar_melody.mp3" },
+            { CustomAudioType.SIGNALSCOPE_PERCUSSIONS, "Assets/Sounds/Signals/percussions.mp3" },
+            { CustomAudioType.SIGNALSCOPE_RHODES, "Assets/Sounds/Signals/rhodes.mp3" },
+            { CustomAudioType.SIGNALSCOPE_WOODWINDS, "Assets/Sounds/Signals/woodwinds.mp3" },
+            //
         };
 
         private static bool IsInitialized = false;

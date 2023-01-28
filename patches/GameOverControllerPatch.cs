@@ -18,7 +18,7 @@ namespace SbekuMod.patches
 
         [HarmonyPostfix]
         [HarmonyPatch(typeof(GameOverController), nameof(GameOverController.OnDestroy))]
-        public static void GameOverController_OnDestroy_Postfix(GameOverController __instance)
+        public static void GameOverController_OnDestroy_Postfix()
         {
             GlobalMessenger.RemoveListener("TriggerDeathByHornfels", new Callback(OnTriggerDeathByHornfels));
         }

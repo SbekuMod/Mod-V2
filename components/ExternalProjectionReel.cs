@@ -38,7 +38,7 @@ namespace SbekuMod.components
                 mindProjector._closingCurve = vanillaProjector._closingCurve;
                 mindProjector._openingCurve = vanillaProjector._openingCurve;
 
-                audioSignal = GetComponent<AudioSignal>();
+                //audioSignal = GetComponent<AudioSignal>();
 
                 Light light = GetComponentInChildren<Light>(false);
                 LightAnimator lightAnimator = null;
@@ -52,11 +52,11 @@ namespace SbekuMod.components
                 interactReceiver._noCommandIconPrompt = new ScreenPrompt("", 0);
                 interactReceiver.OnPressInteract += () =>
                 {
-                    if (audioSignal != null)
-                    {
-                        audioSignal._onlyAudibleToScope = true;
-                        audioSignal._owAudioSource.Stop();
-                    }
+                    //if (audioSignal != null)
+                    //{
+                    //    audioSignal._onlyAudibleToScope = true;
+                    //    audioSignal._owAudioSource.Stop();
+                    //}
 
                     if (lightAnimator != null) lightAnimator.SetBehaviour(LightAnimator.LightBehaviour.MaxIntensity, 1);
                     mindProjector.Play(true);

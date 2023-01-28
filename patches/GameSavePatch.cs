@@ -14,9 +14,9 @@ namespace SbekuMod.patches
         [HarmonyPatch(typeof(GameSave), nameof(GameSave.SetDefaultValuesOnDeserialized))]
         public static bool GameSave_SetDefaultValuesOnDeserialized_Prefix(GameSave __instance)
         {
-            if (__instance.knownFrequencies.Length < 8)
+            if (__instance.knownFrequencies.Length < 9)
             {
-                Array.Resize<bool>(ref __instance.knownFrequencies, 8);
+                Array.Resize<bool>(ref __instance.knownFrequencies, 9);
             }
 
             return false;

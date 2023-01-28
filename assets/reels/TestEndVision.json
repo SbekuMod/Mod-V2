@@ -3,6 +3,7 @@
   "Prefab": "Assets/Models/LanternPrefab.prefab",
   "Parent": "TimberHearth_Body",
   "Sector": "Sector_Village",
+  "SignalFrequency": "STORY_REELS",
   "Signalscope": "SBK_SIGNALSCOPE",
   "InitialRotation": {
     "X": 55.0351,

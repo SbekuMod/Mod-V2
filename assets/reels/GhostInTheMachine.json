@@ -3,8 +3,9 @@
   "Prefab": "Assets/Models/Reel.prefab",
   "Parent": "RingWorld_Body",
   "Sector": "Sector_RingWorld",
+  "SignalFrequency": "CUSTOM_REELS",
   "Signal": "GHOST_IN_THE_MACHINE",
-  "SignalAudio": "GHOST_IN_THE_MACHINE_SIGNAL",
+  "SignalAudio": "SIGNALSCOPE_BOUZOUKI_1",
   "InitialRotation": {
     "X": 273.1147,
     "Y": 32.0106,

@@ -3,8 +3,9 @@
   "Prefab": "Assets/Models/Reel.prefab",
   "Parent": "RingWorld_Body",
   "Sector": "Sector_RingWorld",
+  "SignalFrequency": "CUSTOM_REELS",
   "Signal": "FIRE_ARROWS",
-  "SignalAudio": "SBK_SIGNALSCOPE",
+  "SignalAudio": "SIGNALSCOPE_BANJO_2",
   "InitialRotation": {
     "X": 298.5598,
     "Y": 135.0821,
