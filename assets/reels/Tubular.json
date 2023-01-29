@@ -1,0 +1,101 @@
+{
+  "Name": "Tubular_Reel",
+  "Prefab": "Assets/Models/Reel.prefab",
+  "Parent": "RingWorld_Body",
+  "Sector": "Sector_RingWorld",
+  "Signal": "TUBULAR",
+  "SignalFrequency": "CUSTOM_REELS",
+  "SignalAudio": "SIGNALSCOPE_BOWS",
+  "InitialRotation": {
+    "X": 325.9287,
+    "Y": 13.7559,
+    "Z": 89.4701
+  },
+  "InitialPosition": {
+    "X": 229.693,
+    "Y": 106.7696,
+    "Z": -42.0399
+  },
+  "Type": "SLIDE",
+  "Slides": [
+    {
+      "Path": "Assets\\Slides\\Tubular\\Tubular_00000.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Tubular\\Tubular_00001.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Tubular\\Tubular_00002.png",
+      "BackdropAudio": "Tubular"
+    },
+    {
+      "Path": "Assets\\Slides\\Tubular\\Tubular_00003.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Tubular\\Tubular_00004.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Tubular\\Tubular_00005.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Tubular\\Tubular_00006.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Tubular\\Tubular_00007.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Tubular\\Tubular_00008.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Tubular\\Tubular_00009.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Tubular\\Tubular_00010.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Tubular\\Tubular_00011.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Tubular\\Tubular_00012.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Tubular\\Tubular_00013.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Tubular\\Tubular_00014.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Tubular\\Tubular_00015.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Tubular\\Tubular_00016.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Tubular\\Tubular_00017.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Tubular\\Tubular_00018.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Tubular\\Tubular_00019.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Tubular\\Tubular_00020.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Tubular\\Tubular_00021.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Tubular\\Tubular_00022.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Tubular\\Tubular_00023.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Tubular\\Tubular_00024.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Tubular\\Tubular_00025.png"
+    }
+  ]
+}

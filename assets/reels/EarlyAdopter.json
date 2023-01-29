@@ -1,0 +1,113 @@
+{
+  "Name": "EarlyAdopter_Reel",
+  "Prefab": "Assets/Models/Reel.prefab",
+  "Parent": "RingWorld_Body",
+  "Sector": "Sector_RingWorld",
+  "Signal": "EARLY_ADOPTER",
+  "SignalFrequency": "CUSTOM_REELS",
+  "SignalAudio": "SIGNALSCOPE_RHODES",
+  "InitialRotation": {
+    "X": 345.1851,
+    "Y": 315.2309,
+    "Z": 90.0001
+  },
+  "InitialPosition": {
+    "X": 209.5926,
+    "Y": -160.0794,
+    "Z": 176.8775
+  },
+  "Type": "SLIDE",
+  "Slides": [
+    {
+      "Path": "Assets\\Slides\\EarlyAdopter\\EarlyAdopter_00000.png"
+    },
+    {
+      "Path": "Assets\\Slides\\EarlyAdopter\\EarlyAdopter_00001.png"
+    },
+    {
+      "Path": "Assets\\Slides\\EarlyAdopter\\EarlyAdopter_00002.png",
+      "BackdropAudio": "BonfireTheme"
+    },
+    {
+      "Path": "Assets\\Slides\\EarlyAdopter\\EarlyAdopter_00003.png"
+    },
+    {
+      "Path": "Assets\\Slides\\EarlyAdopter\\EarlyAdopter_00004.png"
+    },
+    {
+      "Path": "Assets\\Slides\\EarlyAdopter\\EarlyAdopter_00005.png"
+    },
+    {
+      "Path": "Assets\\Slides\\EarlyAdopter\\EarlyAdopter_00006.png"
+    },
+    {
+      "Path": "Assets\\Slides\\EarlyAdopter\\EarlyAdopter_00007.png"
+    },
+    {
+      "Path": "Assets\\Slides\\EarlyAdopter\\EarlyAdopter_00008.png"
+    },
+    {
+      "Path": "Assets\\Slides\\EarlyAdopter\\EarlyAdopter_00009.png"
+    },
+    {
+      "Path": "Assets\\Slides\\EarlyAdopter\\EarlyAdopter_00010.png"
+    },
+    {
+      "Path": "Assets\\Slides\\EarlyAdopter\\EarlyAdopter_00011.png"
+    },
+    {
+      "Path": "Assets\\Slides\\EarlyAdopter\\EarlyAdopter_00012.png"
+    },
+    {
+      "Path": "Assets\\Slides\\EarlyAdopter\\EarlyAdopter_00013.png"
+    },
+    {
+      "Path": "Assets\\Slides\\EarlyAdopter\\EarlyAdopter_00014.png"
+    },
+    {
+      "Path": "Assets\\Slides\\EarlyAdopter\\EarlyAdopter_00015.png"
+    },
+    {
+      "Path": "Assets\\Slides\\EarlyAdopter\\EarlyAdopter_00016.png"
+    },
+    {
+      "Path": "Assets\\Slides\\EarlyAdopter\\EarlyAdopter_00017.png"
+    },
+    {
+      "Path": "Assets\\Slides\\EarlyAdopter\\EarlyAdopter_00018.png"
+    },
+    {
+      "Path": "Assets\\Slides\\EarlyAdopter\\EarlyAdopter_00019.png"
+    },
+    {
+      "Path": "Assets\\Slides\\EarlyAdopter\\EarlyAdopter_00020.png"
+    },
+    {
+      "Path": "Assets\\Slides\\EarlyAdopter\\EarlyAdopter_00021.png"
+    },
+    {
+      "Path": "Assets\\Slides\\EarlyAdopter\\EarlyAdopter_00022.png"
+    },
+    {
+      "Path": "Assets\\Slides\\EarlyAdopter\\EarlyAdopter_00023.png"
+    },
+    {
+      "Path": "Assets\\Slides\\EarlyAdopter\\EarlyAdopter_00024.png"
+    },
+    {
+      "Path": "Assets\\Slides\\EarlyAdopter\\EarlyAdopter_00025.png"
+    },
+    {
+      "Path": "Assets\\Slides\\EarlyAdopter\\EarlyAdopter_00026.png"
+    },
+    {
+      "Path": "Assets\\Slides\\EarlyAdopter\\EarlyAdopter_00027.png"
+    },
+    {
+      "Path": "Assets\\Slides\\EarlyAdopter\\EarlyAdopter_00028.png"
+    },
+    {
+      "Path": "Assets\\Slides\\EarlyAdopter\\EarlyAdopter_00029.png"
+    }
+  ]
+}

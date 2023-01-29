@@ -40,23 +40,26 @@ namespace SbekuMod.patches
             { CustomAudioType.SIGNALSCOPE_BANJO_2, "Assets/Sounds/Signals/banjo_2.mp3" },// FireArrows
             { CustomAudioType.SIGNALSCOPE_BOUZOUKI_1, "Assets/Sounds/Signals/bouzouki_1.mp3" },// GhostInTheMachine
             { CustomAudioType.SIGNALSCOPE_BOW_BOUZOUKI, "Assets/Sounds/Signals/bow_bouzouki.mp3" },// NeverGetMeAlive
-            { CustomAudioType.SIGNALSCOPE_BOWS, "Assets/Sounds/Signals/bows.mp3" },
-            { CustomAudioType.SIGNALSCOPE_CONTRABASS, "Assets/Sounds/Signals/contrabass.mp3" },
+            { CustomAudioType.SIGNALSCOPE_BOWS, "Assets/Sounds/Signals/bows.mp3" },// Tubular
+            { CustomAudioType.SIGNALSCOPE_CONTRABASS, "Assets/Sounds/Signals/contrabass.mp3" },// 232-78_Degrees
             { CustomAudioType.SIGNALSCOPE_GUITAR_1, "Assets/Sounds/Signals/guitar_1.mp3" },// SleepWakeRepeat
             { CustomAudioType.SIGNALSCOPE_GUITAR_2, "Assets/Sounds/Signals/guitar_2.mp3" },// TheGrateFilter
             { CustomAudioType.SIGNALSCOPE_GUITAR_3, "Assets/Sounds/Signals/guitar_3.mp3" },// AroundTheWorld
-            { CustomAudioType.SIGNALSCOPE_GUITAR_MELODY, "Assets/Sounds/Signals/guitar_melody.mp3" },
+            { CustomAudioType.SIGNALSCOPE_GUITAR_MELODY, "Assets/Sounds/Signals/guitar_melody.mp3" },// FlatHearthian
             { CustomAudioType.SIGNALSCOPE_PERCUSSIONS, "Assets/Sounds/Signals/percussions.mp3" },
-            { CustomAudioType.SIGNALSCOPE_RHODES, "Assets/Sounds/Signals/rhodes.mp3" },
-            { CustomAudioType.SIGNALSCOPE_WOODWINDS, "Assets/Sounds/Signals/woodwinds.mp3" },
+            { CustomAudioType.SIGNALSCOPE_RHODES, "Assets/Sounds/Signals/rhodes.mp3" },// EarlyAdopter
+            { CustomAudioType.SIGNALSCOPE_WOODWINDS, "Assets/Sounds/Signals/woodwinds.mp3" },// Hypothesis
             //
             { CustomAudioType.FIRE_ARROWS, "Assets/Sounds/FireArrows.mp3" },
-
             { CustomAudioType.S_1_900, "Assets/Sounds/1_900.mp3" },
             { CustomAudioType.NeverGetMeAlive, "Assets/Sounds/NeverGetMeAlive.mp3" },
             { CustomAudioType.SunSFX, "Assets/Sounds/SunSFX.mp3" },
             { CustomAudioType.AroundTheWorld_Start, "Assets/Sounds/AroundTheWorld_Start.mp3" },
             { CustomAudioType.AroundTheWorld_Base, "Assets/Sounds/AroundTheWorld_Base.mp3" },
+            { CustomAudioType.BonfireTheme, "Assets/Sounds/BonfireTheme.mp3" },
+            { CustomAudioType.FlatHearthianSFX, "Assets/Sounds/FlatHearthianSFX.mp3" },
+            { CustomAudioType.Tubular, "Assets/Sounds/Tubular.mp3" },
+            { CustomAudioType.S_232_78_Degrees, "Assets/Sounds/BurningReel.wav" },
         };
 
         private static bool IsInitialized = false;

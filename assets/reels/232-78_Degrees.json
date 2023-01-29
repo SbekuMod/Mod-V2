@@ -1,0 +1,50 @@
+{
+  "Name": "232_78_Degrees_Reel",
+  "Prefab": "Assets/Models/Reel.prefab",
+  "Parent": "RingWorld_Body",
+  "Sector": "Sector_RingWorld",
+  "Signal": "S_232-78_Degrees",
+  "SignalFrequency": "CUSTOM_REELS",
+  "SignalAudio": "SIGNALSCOPE_CONTRABASS",
+  "InitialRotation": {
+    "X": 35.5807,
+    "Y": 182.2516,
+    "Z": 90.001
+  },
+  "InitialPosition": {
+    "X": -296.8604,
+    "Y": -48.6191,
+    "Z": 16.9985
+  },
+  "Type": "SLIDE",
+  "Slides": [
+    {
+      "Path": "Assets\\Slides\\Degrees_Celsius\\Degrees_Celsius_00000.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Degrees_Celsius\\Degrees_Celsius_00001.png",
+      "BackdropAudio": "S_232-78_Degrees"
+    },
+    {
+      "Path": "Assets\\Slides\\Degrees_Celsius\\Degrees_Celsius_00002.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Degrees_Celsius\\Degrees_Celsius_00003.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Degrees_Celsius\\Degrees_Celsius_00004.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Degrees_Celsius\\Degrees_Celsius_00005.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Degrees_Celsius\\Degrees_Celsius_00006.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Degrees_Celsius\\Degrees_Celsius_00007.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Degrees_Celsius\\Degrees_Celsius_00008.png"
+    }
+  ]
+}

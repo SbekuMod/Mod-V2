@@ -1,0 +1,68 @@
+{
+  "Name": "Hypothesis_Reel",
+  "Prefab": "Assets/Models/Reel.prefab",
+  "Parent": "RingWorld_Body",
+  "Sector": "Sector_RingWorld",
+  "Signal": "HYPOTHESIS",
+  "SignalFrequency": "CUSTOM_REELS",
+  "SignalAudio": "SIGNALSCOPE_WOODWINDS",
+  "InitialRotation": {
+    "X": 13.2618,
+    "Y": 103.5296,
+    "Z": 90.0001
+  },
+  "InitialPosition": {
+    "X": -63.2481,
+    "Y": -92.5992,
+    "Z": -285.6346
+  },
+  "Type": "SLIDE",
+  "Slides": [
+    {
+      "Path": "Assets\\Slides\\Hypothesis\\Hypothesis_00000.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Hypothesis\\Hypothesis_00001.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Hypothesis\\Hypothesis_00002.png",
+      "BackdropAudio": "BonfireTheme"
+    },
+    {
+      "Path": "Assets\\Slides\\Hypothesis\\Hypothesis_00003.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Hypothesis\\Hypothesis_00004.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Hypothesis\\Hypothesis_00005.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Hypothesis\\Hypothesis_00006.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Hypothesis\\Hypothesis_00007.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Hypothesis\\Hypothesis_00008.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Hypothesis\\Hypothesis_00009.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Hypothesis\\Hypothesis_00010.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Hypothesis\\Hypothesis_00011.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Hypothesis\\Hypothesis_00012.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Hypothesis\\Hypothesis_00013.png"
+    },
+    {
+      "Path": "Assets\\Slides\\Hypothesis\\Hypothesis_00014.png"
+    }
+  ]
+}

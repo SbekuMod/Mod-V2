@@ -4,7 +4,6 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
-using static SbekuMod.patches.AudioSignalPatch;
 
 
 namespace SbekuMod.utils
@@ -19,10 +18,15 @@ namespace SbekuMod.utils
             "1_900",
             "NeverGetMeAlive",
             "GhostInTheMachine",
-            "TestEndVision",
+            //"TestEndVision",
             "FireArrows",
             "Beginning",
-            "AroundTheWorld"
+            "AroundTheWorld",
+            "FlatHearthian",
+            "Hypothesis",
+            "EarlyAdopter",
+            "Tubular",
+            "232-78_Degrees"
         };
 
         //private static List<CustomAudioSignal> activeAudioSignals = new List<CustomAudioSignal>();
@@ -33,9 +37,9 @@ namespace SbekuMod.utils
             //foreach (var audioSignal in activeAudioSignals)
             //    audioSignal.OnDestroy();
             //activeAudioSignals = new List<CustomAudioSignal>();
-            //var reelManager = new GameObject();
-            //reelManager.name = "ReelSignalManager";
-            //reelManager.AddComponent<ReelSignalManager>();
+            var reelManager = new GameObject();
+            reelManager.name = "ReelSignalManager";
+            reelManager.AddComponent<ReelSignalManager>();
 
             var reelBasePath = Path.Combine(UtilityHelper.GetProjectBasePath(), BASE_PATH);
 

@@ -1,0 +1,72 @@
+{
+  "Name": "FlatHearthian_Reel",
+  "Prefab": "Assets/Models/Reel.prefab",
+  "Parent": "RingWorld_Body",
+  "Sector": "Sector_RingWorld",
+  "Signal": "FLAT_HEARTHIAN",
+  "SignalFrequency": "CUSTOM_REELS",
+  "SignalAudio": "SIGNALSCOPE_GUITAR_MELODY",
+  "InitialRotation": {
+    "X": 65.3187,
+    "Y": 249.3859,
+    "Z": 269.9176
+  },
+  "InitialPosition": {
+    "X": 108.4415,
+    "Y": -128.5555,
+    "Z": -273.8839
+  },
+  "Type": "SLIDE",
+  "Slides": [
+    {
+      "Path": "Assets\\Slides\\FlatHearthian\\FlatHearthian_00000.png"
+    },
+    {
+      "Path": "Assets\\Slides\\FlatHearthian\\FlatHearthian_00001.png"
+    },
+    {
+      "Path": "Assets\\Slides\\FlatHearthian\\FlatHearthian_00002.png",
+      "BackdropAudio": "DREAM"
+    },
+    {
+      "Path": "Assets\\Slides\\FlatHearthian\\FlatHearthian_00003.png"
+    },
+    {
+      "Path": "Assets\\Slides\\FlatHearthian\\FlatHearthian_00004.png"
+    },
+    {
+      "Path": "Assets\\Slides\\FlatHearthian\\FlatHearthian_00005.png"
+    },
+    {
+      "Path": "Assets\\Slides\\FlatHearthian\\FlatHearthian_00006.png"
+    },
+    {
+      "Path": "Assets\\Slides\\FlatHearthian\\FlatHearthian_00007.png"
+    },
+    {
+      "Path": "Assets\\Slides\\FlatHearthian\\FlatHearthian_00008.png"
+    },
+    {
+      "Path": "Assets\\Slides\\FlatHearthian\\FlatHearthian_00009.png"
+    },
+    {
+      "Path": "Assets\\Slides\\FlatHearthian\\FlatHearthian_00010.png"
+    },
+    {
+      "Path": "Assets\\Slides\\FlatHearthian\\FlatHearthian_00011.png",
+      "BeatAudio": "FlatHearthianSFX"
+    },
+    {
+      "Path": "Assets\\Slides\\FlatHearthian\\FlatHearthian_00012.png"
+    },
+    {
+      "Path": "Assets\\Slides\\FlatHearthian\\FlatHearthian_00013.png"
+    },
+    {
+      "Path": "Assets\\Slides\\FlatHearthian\\FlatHearthian_00014.png"
+    },
+    {
+      "Path": "Assets\\Slides\\FlatHearthian\\FlatHearthian_00015.png"
+    }
+  ]
+}

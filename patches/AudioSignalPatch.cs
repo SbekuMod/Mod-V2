@@ -38,13 +38,22 @@ namespace SbekuMod.patches
             BEGINNING = 109,
             [EnumMember(Value = "AROUND_THE_WORLD")]
             AROUND_THE_WORLD = 110,
+            [EnumMember(Value = "FLAT_HEARTHIAN")]
+            FLAT_HEARTHIAN = 111,
+            [EnumMember(Value = "HYPOTHESIS")]
+            HYPOTHESIS = 112,
+            [EnumMember(Value = "EARLY_ADOPTER")]
+            EARLY_ADOPTER = 113,
+            [EnumMember(Value = "TUBULAR")]
+            TUBULAR = 114,
+            [EnumMember(Value = "S_232-78_Degrees")]
+            S_232_78_Degrees = 115,
         }
 
         [HarmonyPrefix]
         [HarmonyPatch(typeof(AudioSignal), nameof(AudioSignal.SignalNameToString))]
         public static bool AudioSignal_SignalNameToString_Prefix(SignalName name, ref string __result)
         {
-            SbekuMod.Instance.ModHelper.Console.WriteLine($"LOADING SIGNAL {name}");
             switch((CustomSignalName)name)
             {
                 case CustomSignalName.Test: 
@@ -73,6 +82,21 @@ namespace SbekuMod.patches
                     return false;
                 case CustomSignalName.AROUND_THE_WORLD:
                     __result = "IL GIRO DEL MONDO IN 90 SECONDI";
+                    return false;
+                case CustomSignalName.FLAT_HEARTHIAN:
+                    __result = "PIATTO COME UN TEPORIANO";
+                    return false;
+                case CustomSignalName.HYPOTHESIS:
+                    __result = "IPOTESI E SIMULAZIONI";
+                    return false;
+                case CustomSignalName.EARLY_ADOPTER:
+                    __result = "PRIMO UTILIZZATORE";
+                    return false;
+                case CustomSignalName.TUBULAR:
+                    __result = "IN CIMA ALL'ONDA";
+                    return false;
+                case CustomSignalName.S_232_78_Degrees:
+                    __result = "232.78 GRADI CELSIUS";
                     return false;
             }
 
@@ -129,7 +153,7 @@ namespace SbekuMod.patches
 
             if ((CustomSignalFrequency)frequency == CustomSignalFrequency.STORY_REELS)
             {
-                __result = "ECHI DI STO CAZZO";
+                __result = "ANIMA DELLA SCOPERTA";
                 return false;
             }
             return true;

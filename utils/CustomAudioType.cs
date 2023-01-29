@@ -87,5 +87,11 @@ namespace SbekuMod.utils
         // 1050 Already Exists
         [EnumMember(Value = "AroundTheWorld_Base")]
         AroundTheWorld_Base = 3100,
+        [EnumMember(Value = "BonfireTheme")]
+        BonfireTheme = 3101,
+        [EnumMember(Value = "Tubular")]
+        Tubular = 3102,
+        [EnumMember(Value = "S_232-78_Degrees")]
+        S_232_78_Degrees = 3103,
     }
 }

@@ -59,8 +59,10 @@ namespace SbekuMod.components
                 GlobalMessenger.AddListener("OnFirstSignalTrigger", OnFirstSignalTrigger);
             }
 
-            //_reelSignalManager = GameObject.Find("ReelSignalManager").GetComponent<ReelSignalManager>();
-            //_reelSignalManager.AddSignal(audioSignal);
+            if (_frequency == CustomSignalFrequency.CUSTOM_REELS) {
+                _reelSignalManager = GameObject.Find("ReelSignalManager").GetComponent<ReelSignalManager>();
+                _reelSignalManager.AddSignal(audioSignal);
+            }
         }
 
         private void OnFirstSignalTrigger() { 
