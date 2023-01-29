@@ -23,7 +23,7 @@
     },
     {
       "Path": "Assets\\Slides\\FireArrows\\FireArrows_00001.png",
-      "BackdropAudio": "DREAM"
+      "BackdropAudio": "FIRE_ARROWS"
     },
     {
       "Path": "Assets\\Slides\\FireArrows\\FireArrows_00002.png"
@@ -65,7 +65,8 @@
       "Path": "Assets\\Slides\\FireArrows\\FireArrows_00014.png"
     },
     {
-      "Path": "Assets\\Slides\\FireArrows\\FireArrows_00015.png"
+      "Path": "Assets\\Slides\\FireArrows\\FireArrows_00015.png",
+      "BeatAudio": "SunSFX"
     },
     {
       "Path": "Assets\\Slides\\FireArrows\\FireArrows_00016.png"
@@ -74,7 +75,8 @@
       "Path": "Assets\\Slides\\FireArrows\\FireArrows_00017.png"
     },
     {
-      "Path": "Assets\\Slides\\FireArrows\\FireArrows_00018.png"
+      "Path": "Assets\\Slides\\FireArrows\\FireArrows_00018.png",
+      "BeatAudio": "SunSFX"
     },
     {
       "Path": "Assets\\Slides\\FireArrows\\FireArrows_00019.png"

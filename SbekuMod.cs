@@ -30,13 +30,6 @@ namespace SbekuMod
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
         }
 
-        private bool IsConfirming() => 
-            OWInput.IsPressed(InputLibrary.confirm) || 
-            OWInput.IsPressed(InputLibrary.confirm2) ||
-            OWInput.IsPressed(InputLibrary.cancel) || 
-            OWInput.IsPressed(InputLibrary.cancelRebinding1) ||
-            OWInput.IsPressed(InputLibrary.cancelRebinding2);
-
         private void Update()
         {
             if (ModHelper.Config.GetSettingsValue<bool>(UNLOCK_EVERYTHING_SETTING_KEY) && Keyboard.current.uKey.wasPressedThisFrame)

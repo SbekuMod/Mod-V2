@@ -32,9 +32,9 @@ namespace SbekuMod.utils
 
         public static void ReplaceMusic()
         {
-            var eventStorage = SbekuMod.Instance.EventStorage;
-            var storedEvents = eventStorage.Get();
-            if (!storedEvents.HasSeenEnding) return;
+            //var eventStorage = SbekuMod.Instance.EventStorage;
+            //var storedEvents = eventStorage.Get();
+            //if (!storedEvents.HasSeenEnding) return;
 
             var musicObject = GetGameObject("AudioSource_Music");
             if(musicObject == null) return;

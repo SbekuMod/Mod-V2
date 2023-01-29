@@ -44,12 +44,19 @@ namespace SbekuMod.patches
             { CustomAudioType.SIGNALSCOPE_CONTRABASS, "Assets/Sounds/Signals/contrabass.mp3" },
             { CustomAudioType.SIGNALSCOPE_GUITAR_1, "Assets/Sounds/Signals/guitar_1.mp3" },// SleepWakeRepeat
             { CustomAudioType.SIGNALSCOPE_GUITAR_2, "Assets/Sounds/Signals/guitar_2.mp3" },// TheGrateFilter
-            { CustomAudioType.SIGNALSCOPE_GUITAR_3, "Assets/Sounds/Signals/guitar_3.mp3" },
+            { CustomAudioType.SIGNALSCOPE_GUITAR_3, "Assets/Sounds/Signals/guitar_3.mp3" },// AroundTheWorld
             { CustomAudioType.SIGNALSCOPE_GUITAR_MELODY, "Assets/Sounds/Signals/guitar_melody.mp3" },
             { CustomAudioType.SIGNALSCOPE_PERCUSSIONS, "Assets/Sounds/Signals/percussions.mp3" },
             { CustomAudioType.SIGNALSCOPE_RHODES, "Assets/Sounds/Signals/rhodes.mp3" },
             { CustomAudioType.SIGNALSCOPE_WOODWINDS, "Assets/Sounds/Signals/woodwinds.mp3" },
             //
+            { CustomAudioType.FIRE_ARROWS, "Assets/Sounds/FireArrows.mp3" },
+
+            { CustomAudioType.S_1_900, "Assets/Sounds/1_900.mp3" },
+            { CustomAudioType.NeverGetMeAlive, "Assets/Sounds/NeverGetMeAlive.mp3" },
+            { CustomAudioType.SunSFX, "Assets/Sounds/SunSFX.mp3" },
+            { CustomAudioType.AroundTheWorld_Start, "Assets/Sounds/AroundTheWorld_Start.mp3" },
+            { CustomAudioType.AroundTheWorld_Base, "Assets/Sounds/AroundTheWorld_Base.mp3" },
         };
 
         private static bool IsInitialized = false;

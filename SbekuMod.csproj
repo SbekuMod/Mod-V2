@@ -256,6 +256,9 @@
     <None Update="assets\popups\welcome.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="assets\reels\AroundTheWorld.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="assets\reels\NeverGetMeAlive.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

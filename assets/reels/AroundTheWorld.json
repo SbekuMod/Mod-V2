@@ -1,0 +1,126 @@
+{
+  "Name": "AroundTheWorld_Reel",
+  "Prefab": "Assets/Models/Reel.prefab",
+  "Parent": "RingWorld_Body",
+  "Sector": "Sector_RingWorld",
+  "Signal": "AROUND_THE_WORLD",
+  "SignalFrequency": "CUSTOM_REELS",
+  "SignalAudio": "SIGNALSCOPE_GUITAR_3",
+  "InitialRotation": {
+    "X": 279.3009,
+    "Y": 75.3674,
+    "Z": 90
+  },
+  "InitialPosition": {
+    "X": 66.2631,
+    "Y": 67.3431,
+    "Z": -278.2244
+  },
+  "Type": "SLIDE",
+  "Slides": [
+    {
+      "Path": "Assets\\Slides\\AroundTheWorld\\AroundTheWorld_00000.png"
+    },
+    {
+      "Path": "Assets\\Slides\\AroundTheWorld\\AroundTheWorld_00001.png"
+    },
+    {
+      "Path": "Assets\\Slides\\AroundTheWorld\\AroundTheWorld_00002.png"
+    },
+    {
+      "Path": "Assets\\Slides\\AroundTheWorld\\AroundTheWorld_00003.png"
+    },
+    {
+      "Path": "Assets\\Slides\\AroundTheWorld\\AroundTheWorld_00004.png"
+    },
+    {
+      "Path": "Assets\\Slides\\AroundTheWorld\\AroundTheWorld_00005.png"
+    },
+    {
+      "Path": "Assets\\Slides\\AroundTheWorld\\AroundTheWorld_00006.png"
+    },
+    {
+      "Path": "Assets\\Slides\\AroundTheWorld\\AroundTheWorld_00007.png"
+    },
+    {
+      "Path": "Assets\\Slides\\AroundTheWorld\\AroundTheWorld_00008.png",
+      "BeatAudio": "AroundTheWorld_Start"
+    },
+    {
+      "Path": "Assets\\Slides\\AroundTheWorld\\AroundTheWorld_00009.png"
+    },
+    {
+      "Path": "Assets\\Slides\\AroundTheWorld\\AroundTheWorld_00010.png",
+      "BackdropAudio": "AroundTheWorld_Base"
+    },
+    {
+      "Path": "Assets\\Slides\\AroundTheWorld\\AroundTheWorld_00011.png"
+    },
+    {
+      "Path": "Assets\\Slides\\AroundTheWorld\\AroundTheWorld_00012.png"
+    },
+    {
+      "Path": "Assets\\Slides\\AroundTheWorld\\AroundTheWorld_00013.png"
+    },
+    {
+      "Path": "Assets\\Slides\\AroundTheWorld\\AroundTheWorld_00014.png"
+    },
+    {
+      "Path": "Assets\\Slides\\AroundTheWorld\\AroundTheWorld_00015.png"
+    },
+    {
+      "Path": "Assets\\Slides\\AroundTheWorld\\AroundTheWorld_00016.png"
+    },
+    {
+      "Path": "Assets\\Slides\\AroundTheWorld\\AroundTheWorld_00017.png"
+    },
+    {
+      "Path": "Assets\\Slides\\AroundTheWorld\\AroundTheWorld_00018.png"
+    },
+    {
+      "Path": "Assets\\Slides\\AroundTheWorld\\AroundTheWorld_00019.png"
+    },
+    {
+      "Path": "Assets\\Slides\\AroundTheWorld\\AroundTheWorld_00020.png"
+    },
+    {
+      "Path": "Assets\\Slides\\AroundTheWorld\\AroundTheWorld_00021.png"
+    },
+    {
+      "Path": "Assets\\Slides\\AroundTheWorld\\AroundTheWorld_00022.png"
+    },
+    {
+      "Path": "Assets\\Slides\\AroundTheWorld\\AroundTheWorld_00023.png"
+    },
+    {
+      "Path": "Assets\\Slides\\AroundTheWorld\\AroundTheWorld_00024.png"
+    },
+    {
+      "Path": "Assets\\Slides\\AroundTheWorld\\AroundTheWorld_00025.png"
+    },
+    {
+      "Path": "Assets\\Slides\\AroundTheWorld\\AroundTheWorld_00026.png"
+    },
+    {
+      "Path": "Assets\\Slides\\AroundTheWorld\\AroundTheWorld_00027.png"
+    },
+    {
+      "Path": "Assets\\Slides\\AroundTheWorld\\AroundTheWorld_00028.png"
+    },
+    {
+      "Path": "Assets\\Slides\\AroundTheWorld\\AroundTheWorld_00029.png"
+    },
+    {
+      "Path": "Assets\\Slides\\AroundTheWorld\\AroundTheWorld_00030.png"
+    },
+    {
+      "Path": "Assets\\Slides\\AroundTheWorld\\AroundTheWorld_00031.png"
+    },
+    {
+      "Path": "Assets\\Slides\\AroundTheWorld\\AroundTheWorld_00032.png"
+    },
+    {
+      "Path": "Assets\\Slides\\AroundTheWorld\\AroundTheWorld_00033.png"
+    }
+  ]
+}

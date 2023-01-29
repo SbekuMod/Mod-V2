@@ -21,7 +21,8 @@ namespace SbekuMod.utils
             "GhostInTheMachine",
             "TestEndVision",
             "FireArrows",
-            "Beginning"
+            "Beginning",
+            "AroundTheWorld"
         };
 
         //private static List<CustomAudioSignal> activeAudioSignals = new List<CustomAudioSignal>();

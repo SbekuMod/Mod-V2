@@ -70,5 +70,22 @@ namespace SbekuMod.utils
         [EnumMember(Value = "SIGNALSCOPE_WOODWINDS")]
         SIGNALSCOPE_WOODWINDS = 1042,
         //
+        [EnumMember(Value = "FIRE_ARROWS")]
+        FIRE_ARROWS = 1043,
+        [EnumMember(Value = "S_1_900")]
+        S_1_900 = 1044,
+        [EnumMember(Value = "NeverGetMeAlive")]
+        NeverGetMeAlive = 1045,
+        [EnumMember(Value = "SunSFX")]
+        SunSFX = 1046,
+        [EnumMember(Value = "FlatHearthianSFX")]
+        FlatHearthianSFX = 1047,
+        [EnumMember(Value = "NeverGetMeAliveSFX")]
+        NeverGetMeAliveSFX = 1048,
+        [EnumMember(Value = "AroundTheWorld_Start")]
+        AroundTheWorld_Start = 1049, 
+        // 1050 Already Exists
+        [EnumMember(Value = "AroundTheWorld_Base")]
+        AroundTheWorld_Base = 3100,
     }
 }

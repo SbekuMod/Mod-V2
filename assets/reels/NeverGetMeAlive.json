@@ -26,7 +26,7 @@
     },
     {
       "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00002.png",
-      "BackdropAudio": "DREAM"
+      "BackdropAudio": "NeverGetMeAlive"
     },
     {
       "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00003.png"
@@ -131,7 +131,8 @@
       "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00036.png"
     },
     {
-      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00037.png"
+      "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00037.png",
+      "BeatAudio": "NeverGetMeAliveSFX"
     },
     {
       "Path": "Assets\\Slides\\NeverGetMeAlive\\NeverGetMeAlive_00038.png"

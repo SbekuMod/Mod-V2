@@ -36,6 +36,8 @@ namespace SbekuMod.patches
             FIRE_ARROWS = 108,
             [EnumMember(Value = "BEGINNING")]
             BEGINNING = 109,
+            [EnumMember(Value = "AROUND_THE_WORLD")]
+            AROUND_THE_WORLD = 110,
         }
 
         [HarmonyPrefix]
@@ -68,6 +70,9 @@ namespace SbekuMod.patches
                     return false;
                 case CustomSignalName.BEGINNING:
                     __result = "L'INIZIO DI... TUTTO QUESTO";
+                    return false;
+                case CustomSignalName.AROUND_THE_WORLD:
+                    __result = "IL GIRO DEL MONDO IN 90 SECONDI";
                     return false;
             }
 
