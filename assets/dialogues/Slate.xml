@@ -294,6 +294,10 @@
 				<Text>You know the ship is a death-trap, right?</Text>
 				<DialogueTarget>ScientistAnswer35</DialogueTarget>
 			</DialogueOption>
+      <DialogueOption>
+        <Text>EOTD_BEGINNING_1</Text>
+        <DialogueTarget>ScientistEotdBeginning1</DialogueTarget>
+      </DialogueOption>
 			<DialogueOption>
 				<Text>DEEP_IMPACT_1</Text>
 				<DialogueTarget>ScientistDeepImpact1</DialogueTarget>
@@ -328,6 +332,14 @@
 			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
+
+  <DialogueNode>
+    <Name>ScientistEotdBeginning1</Name>
+    <Dialogue>
+      <Page>EOTD_BEGINNING_2</Page>
+      <Page>EOTD_BEGINNING_3</Page>
+    </Dialogue>
+  </DialogueNode>
 
 	<DialogueNode>
 		<Name>ScientistDeepImpact1</Name>

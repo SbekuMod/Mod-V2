@@ -10,6 +10,7 @@ namespace SbekuMod.utils
 {
     public class ReelSetup
     {
+        public static readonly string MANAGER_OBJECT_NAME = "SbekuModManager";
         private static readonly string BASE_PATH = "assets/reels";
         private static readonly string[] REEL_LIST = new string[]
         {
@@ -26,7 +27,8 @@ namespace SbekuMod.utils
             "Hypothesis",
             "EarlyAdopter",
             "Tubular",
-            "232-78_Degrees"
+            "232-78_Degrees",
+            "Ending"
         };
 
         //private static List<CustomAudioSignal> activeAudioSignals = new List<CustomAudioSignal>();
@@ -38,8 +40,9 @@ namespace SbekuMod.utils
             //    audioSignal.OnDestroy();
             //activeAudioSignals = new List<CustomAudioSignal>();
             var reelManager = new GameObject();
-            reelManager.name = "ReelSignalManager";
+            reelManager.name = MANAGER_OBJECT_NAME;
             reelManager.AddComponent<ReelSignalManager>();
+            reelManager.AddComponent<ReelManager>();
 
             var reelBasePath = Path.Combine(UtilityHelper.GetProjectBasePath(), BASE_PATH);
 
@@ -110,7 +113,7 @@ namespace SbekuMod.utils
                 if (reelData.SignalAudio != null && reelData.Signal != null)
                 {
                     var signal = reel.AddComponent<SnmSignal>();
-                    signal.Initialize(reelData.SignalAudio.Value, reelData.Signal.Value, reelData.Sector, reelData.IsFirst, frequency: reelData.SignalFrequency.Value);
+                    signal.Initialize(reelData.SignalAudio.Value, reelData.Signal.Value, reelData.Sector, reelData.IsFirst, isLast: reelData.Type == ReelType.PROJECTION, frequency: reelData.SignalFrequency.Value);
                     //activeAudioSignals.Add(audioSignal);
                 }
 

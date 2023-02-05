@@ -1,0 +1,3107 @@
+{
+  "Name": "ENDING_PROJECTION",
+  "Prefab": "Assets/Models/LanternPrefab.prefab",
+  "Parent": "RingWorld_Body",
+  "Sector": "Sector_RingWorld",
+  "SignalFrequency": "STORY_REELS",
+  "Signal": "ENDING",
+  "SignalAudio": "SBK_SIGNALSCOPE",
+  "InitialRotation": {
+    "X": 71.8779,
+    "Y": 212.3479,
+    "Z": 269.9999
+  },
+  "InitialPosition": {
+    "X": 233.6421,
+    "Y": -70.8724,
+    "Z": -147.5199
+  },
+  "Type": "PROJECTION",
+  "Slides": [
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00000.png",
+      "Duration": 0.1,
+      "BeatAudio": "SNM_ENDING"
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00001.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00002.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00003.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00004.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00005.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00006.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00007.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00008.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00009.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00010.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00011.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00012.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00013.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00014.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00015.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00016.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00017.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00018.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00019.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00020.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00021.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00022.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00023.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00024.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00025.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00026.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00027.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00028.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00029.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00030.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00031.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00032.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00033.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00034.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00035.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00036.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00037.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00038.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00039.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00040.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00041.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00042.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00043.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00044.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00045.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00046.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00047.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00048.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00049.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00050.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00051.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00052.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00053.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00054.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00055.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00056.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00057.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00058.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00059.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00060.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00061.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00062.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00063.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00064.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00065.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00066.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00067.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00068.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00069.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00070.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00071.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00072.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00073.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00074.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00075.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00076.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00077.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00078.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00079.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00080.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00081.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00082.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00083.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00084.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00085.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00086.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00087.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00088.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00089.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00090.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00091.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00092.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00093.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00094.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00095.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00096.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00097.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00098.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00099.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00100.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00101.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00102.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00103.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00104.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00105.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00106.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00107.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00108.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00109.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00110.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00111.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00112.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00113.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00114.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00115.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00116.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00117.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00118.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00119.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00120.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00121.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00122.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00123.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00124.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00125.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00126.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00127.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00128.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00129.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00130.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00131.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00132.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00133.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00134.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00135.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00136.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00137.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00138.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00139.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00140.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00141.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00142.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00143.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00144.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00145.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00146.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00147.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00148.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00149.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00150.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00151.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00152.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00153.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00154.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00155.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00156.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00157.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00158.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00159.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00160.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00161.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00162.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00163.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00164.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00165.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00166.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00167.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00168.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00169.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00170.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00171.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00172.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00173.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00174.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00175.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00176.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00177.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00178.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00179.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00180.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00181.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00182.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00183.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00184.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00185.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00186.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00187.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00188.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00189.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00190.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00191.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00192.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00193.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00194.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00195.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00196.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00197.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00198.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00199.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00200.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00201.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00202.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00203.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00204.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00205.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00206.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00207.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00208.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00209.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00210.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00211.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00212.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00213.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00214.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00215.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00216.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00217.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00218.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00219.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00220.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00221.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00222.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00223.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00224.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00225.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00226.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00227.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00228.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00229.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00230.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00231.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00232.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00233.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00234.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00235.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00236.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00237.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00238.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00239.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00240.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00241.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00242.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00243.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00244.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00245.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00246.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00247.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00248.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00249.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00250.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00251.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00252.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00253.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00254.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00255.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00256.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00257.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00258.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00259.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00260.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00261.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00262.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00263.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00264.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00265.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00266.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00267.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00268.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00269.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00270.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00271.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00272.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00273.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00274.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00275.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00276.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00277.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00278.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00279.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00280.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00281.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00282.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00283.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00284.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00285.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00286.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00287.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00288.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00289.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00290.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00291.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00292.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00293.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00294.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00295.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00296.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00297.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00298.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00299.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00300.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00301.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00302.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00303.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00304.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00305.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00306.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00307.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00308.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00309.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00310.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00311.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00312.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00313.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00314.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00315.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00316.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00317.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00318.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00319.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00320.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00321.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00322.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00323.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00324.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00325.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00326.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00327.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00328.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00329.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00330.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00331.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00332.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00333.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00334.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00335.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00336.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00337.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00338.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00339.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00340.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00341.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00342.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00343.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00344.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00345.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00346.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00347.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00348.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00349.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00350.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00351.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00352.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00353.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00354.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00355.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00356.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00357.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00358.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00359.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00360.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00361.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00362.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00363.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00364.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00365.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00366.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00367.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00368.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00369.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00370.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00371.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00372.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00373.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00374.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00375.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00376.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00377.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00378.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00379.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00380.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00381.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00382.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00383.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00384.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00385.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00386.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00387.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00388.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00389.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00390.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00391.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00392.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00393.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00394.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00395.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00396.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00397.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00398.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00399.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00400.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00401.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00402.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00403.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00404.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00405.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00406.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00407.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00408.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00409.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00410.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00411.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00412.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00413.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00414.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00415.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00416.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00417.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00418.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00419.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00420.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00421.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00422.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00423.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00424.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00425.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00426.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00427.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00428.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00429.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00430.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00431.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00432.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00433.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00434.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00435.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00436.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00437.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00438.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00439.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00440.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00441.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00442.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00443.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00444.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00445.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00446.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00447.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00448.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00449.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00450.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00451.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00452.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00453.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00454.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00455.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00456.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00457.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00458.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00459.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00460.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00461.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00462.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00463.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00464.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00465.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00466.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00467.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00468.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00469.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00470.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00471.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00472.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00473.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00474.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00475.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00476.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00477.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00478.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00479.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00480.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00481.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00482.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00483.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00484.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00485.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00486.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00487.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00488.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00489.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00490.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00491.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00492.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00493.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00494.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00495.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00496.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00497.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00498.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00499.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00500.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00501.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00502.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00503.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00504.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00505.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00506.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00507.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00508.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00509.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00510.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00511.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00512.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00513.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00514.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00515.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00516.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00517.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00518.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00519.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00520.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00521.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00522.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00523.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00524.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00525.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00526.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00527.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00528.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00529.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00530.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00531.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00532.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00533.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00534.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00535.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00536.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00537.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00538.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00539.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00540.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00541.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00542.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00543.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00544.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00545.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00546.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00547.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00548.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00549.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00550.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00551.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00552.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00553.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00554.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00555.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00556.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00557.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00558.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00559.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00560.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00561.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00562.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00563.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00564.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00565.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00566.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00567.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00568.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00569.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00570.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00571.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00572.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00573.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00574.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00575.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00576.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00577.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00578.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00579.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00580.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00581.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00582.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00583.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00584.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00585.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00586.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00587.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00588.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00589.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00590.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00591.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00592.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00593.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00594.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00595.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00596.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00597.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00598.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00599.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00600.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00601.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00602.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00603.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00604.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00605.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00606.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00607.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00608.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00609.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00610.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00611.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00612.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00613.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00614.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00615.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00616.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00617.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00618.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00619.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00620.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00621.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00622.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00623.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00624.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00625.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00626.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00627.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00628.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00629.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00630.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00631.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00632.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00633.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00634.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00635.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00636.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00637.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00638.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00639.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00640.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00641.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00642.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00643.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00644.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00645.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00646.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00647.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00648.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00649.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00650.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00651.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00652.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00653.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00654.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00655.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00656.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00657.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00658.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00659.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00660.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00661.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00662.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00663.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00664.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00665.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00666.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00667.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00668.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00669.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00670.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00671.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00672.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00673.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00674.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00675.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00676.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00677.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00678.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00679.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00680.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00681.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00682.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00683.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00684.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00685.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00686.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00687.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00688.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00689.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00690.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00691.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00692.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00693.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00694.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00695.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00696.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00697.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00698.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00699.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00700.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00701.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00702.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00703.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00704.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00705.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00706.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00707.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00708.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00709.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00710.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00711.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00712.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00713.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00714.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00715.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00716.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00717.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00718.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00719.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00720.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00721.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00722.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00723.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00724.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00725.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00726.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00727.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00728.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00729.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00730.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00731.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00732.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00733.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00734.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00735.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00736.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00737.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00738.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00739.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00740.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00741.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00742.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00743.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00744.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00745.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00746.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00747.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00748.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00749.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00750.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00751.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00752.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00753.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00754.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00755.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00756.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00757.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00758.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00759.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00760.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00761.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00762.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00763.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00764.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00765.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00766.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00767.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00768.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00769.png",
+      "Duration": 0.1
+    },
+    {
+      "Path": "Assets\\Slides\\Ending\\Ending_00770.png",
+      "Duration": 0.1
+    }
+  ]
+}

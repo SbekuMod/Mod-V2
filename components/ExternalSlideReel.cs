@@ -52,6 +52,14 @@ namespace SbekuMod.components
                 _slideReelItem = slideReelItem;
                 _isFirst = isFirst;
 
+                if (!_isFirst)
+                {
+                    ReelManager.instance?.RegisterReel(this);
+                    slideReelItem.onPickedUp += (item) =>
+                    {
+                        GlobalMessenger<string>.FireEvent(ReelManager.ON_SEE_REEL_EVENT_NAME, gameObject.name);
+                    };
+                }
             }
             catch (Exception e)
             {

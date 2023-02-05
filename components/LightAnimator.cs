@@ -7,6 +7,7 @@ namespace SbekuMod.components
     {
         public enum LightBehaviour
         {
+            OFF,
             Flickering,
             MaxIntensity,
             MinIntensity
@@ -28,6 +29,8 @@ namespace SbekuMod.components
 
         private void FixedUpdate()
         {
+            if (lightBehaviour == LightBehaviour.OFF)
+                _light.intensity = 0;
 
             if (lightBehaviour == LightBehaviour.MinIntensity || (lightBehaviour == LightBehaviour.Flickering && !isFlickeringIncreasing))
                 _light.intensity = Mathf.SmoothDamp(_light.intensity, minIntensity, ref _velocity, transitionLength, 10f, Time.fixedDeltaTime);

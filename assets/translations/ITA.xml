@@ -2876,12 +2876,24 @@
     <value>&lt;Color=#a82debff&gt;}°{&lt;/Color&gt; Cosa c'è da esplorare nell'universo?</value>
   </entry>
   <entry>
+    <key>SlateScientist5EOTD_BEGINNING_1</key>
+    <value>&lt;Color=#a82debff&gt;}°{&lt;/Color&gt; Riguardo al segnaloscopio...</value>
+  </entry>
+  <entry>
     <key>SlateScientist5MICA_WRATH_MENU</key>
     <value>&lt;Color=#a82debff&gt;}°{&lt;/Color&gt; Non mi sento molto sicuro delle mie abilità di pilota...</value>
   </entry>
   <entry>
     <key>ScientistMicaWrath1MICA_WRATH_1</key>
     <value>&lt;Color=#a82debff&gt;}°{&lt;/Color&gt; Allora ti consiglio di andare a fare pratica col &lt;color=orange&gt;modellino di Mica&lt;/color&gt;. Ma stai attento, Mica ci tiene al suo gioiellino.</value>
+  </entry>
+  <entry>
+    <key>ScientistEotdBeginning1EOTD_BEGINNING_2</key>
+    <value>&lt;Color=#a82debff&gt;}°{&lt;/Color&gt; Giusto!! Il segnaloscopio! Scogliocorno mi ha detto di avvisarti che è stata trovata una &lt;color=orange&gt;nuova frequenza radio&lt;/color&gt;, ma sembra puntare sul vuoto cosmico!</value>
+  </entry>
+  <entry>
+    <key>ScientistEotdBeginning1EOTD_BEGINNING_3</key>
+    <value>&lt;Color=#a82debff&gt;}°{&lt;/Color&gt; Non abbiamo idea di cosa possa essere, ma fossi in te darei un'occhiata durante il tuo primo volo.</value>
   </entry>
   <entry>
     <key>ScientistDeepImpact1DEEP_IMPACT_2</key>
@@ -10410,11 +10422,11 @@
   </entry>
   <entry>
     <key>PARADOX_EASTER_EGG_MENUPARADOX_EASTER_EGG_2</key>
-    <value>&lt;Color=#a82debff&gt;}°{&lt;/Color&gt; Grazie a tutti i tuoi cicli ho finalmente raccolto abbastanza informazioni sulla tecnologia Nomaiku e ho ultimato il dispositivo per distruggere completamente il bitrate della live. Vuoi vederlo?</value>
+    <value>&lt;Color=#a82debff&gt;}°{&lt;/Color&gt; Grazie a tutti i tuoi cicli ho finalmente raccolto abbastanza informazioni sulla tecnologia &lt;color=orange&gt;Nomaiku&lt;/color&gt; e ho ultimato il dispositivo per distruggere completamente il bitrate della live. Vuoi vederlo?</value>
   </entry>
   <entry>
     <key>PARADOX_EASTER_EGG_MENUPARADOX_EASTER_EGG_3</key>
-    <value>&lt;Color=#a82debff&gt;}°{&lt;/Color&gt; Oh no, Questo dispositivo non vuole funzionare...\\nMa... Cos'è questo messaggio? Mi dice 'Codice errore: &lt;color=orange&gt;P0GG1&lt;/color&gt;'</value>
+    <value>&lt;Color=#a82debff&gt;}°{&lt;/Color&gt; Oh no, il dispositivo non vuole funzionare... \\nMa... un messaggio..? Codice errore.... &lt;color=orange&gt;P0GG1&lt;/color&gt;??? Che sta succ-</value>
   </entry>
   <entry>
     <key>QUANTIC_ENDING_MENUQUANTIC_ENDING_2</key>

@@ -12,11 +12,13 @@ namespace SbekuMod.components
         private CustomAudioSignal _signal;
         private CustomSignalFrequency _frequency;
         private bool _isFirst;
+        private bool _isLast;
         private ReelSignalManager _reelSignalManager;
 
-        public void Initialize(CustomAudioType signalAudio, CustomSignalName signalName, string sector = null, bool isFirst = false, CustomSignalFrequency frequency = CustomSignalFrequency.CUSTOM_REELS)
+        public void Initialize(CustomAudioType signalAudio, CustomSignalName signalName, string sector = null, bool isFirst = false, bool isLast = false, CustomSignalFrequency frequency = CustomSignalFrequency.CUSTOM_REELS)
         {
             _isFirst = isFirst;
+            _isLast = isLast;
             _audioType = signalAudio;
             _signalName = signalName;
             _frequency = frequency;
@@ -56,16 +58,23 @@ namespace SbekuMod.components
             {
                 owAudioSource.Stop();
                 _signal._active = false;
-                GlobalMessenger.AddListener("OnFirstSignalTrigger", OnFirstSignalTrigger);
+                GlobalMessenger.AddListener("OnFirstSignalTrigger", OnSignalTrigger);
+            }
+
+            if (!storedEvents.HasUnlockedEnding && _isLast)
+            {
+                owAudioSource.Stop();
+                _signal._active = false;
+                GlobalMessenger.AddListener("OnLastSignalTrigger", OnSignalTrigger);
             }
 
             if (_frequency == CustomSignalFrequency.CUSTOM_REELS) {
-                _reelSignalManager = GameObject.Find("ReelSignalManager").GetComponent<ReelSignalManager>();
+                _reelSignalManager = GameObject.Find(ReelSetup.MANAGER_OBJECT_NAME).GetComponent<ReelSignalManager>();
                 _reelSignalManager.AddSignal(audioSignal);
             }
         }
 
-        private void OnFirstSignalTrigger() { 
+        private void OnSignalTrigger() { 
             _signal._active = true;
             _signal.GetOWAudioSource().Play();
         }
@@ -74,7 +83,8 @@ namespace SbekuMod.components
         {
             //_reelSignalManager.RemoveSignal(_signal);
             if (_signal != null) _signal.OnDestroy();
-            GlobalMessenger.RemoveListener("OnFirstSignalTrigger", OnFirstSignalTrigger);
+            GlobalMessenger.RemoveListener("OnFirstSignalTrigger", OnSignalTrigger);
+            GlobalMessenger.RemoveListener("OnLastSignalTrigger", OnSignalTrigger);
         }
 
     }

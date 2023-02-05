@@ -48,6 +48,8 @@ namespace SbekuMod.patches
             TUBULAR = 114,
             [EnumMember(Value = "S_232-78_Degrees")]
             S_232_78_Degrees = 115,
+            [EnumMember(Value = "ENDING")]
+            ENDING = 116,
         }
 
         [HarmonyPrefix]
@@ -97,6 +99,9 @@ namespace SbekuMod.patches
                     return false;
                 case CustomSignalName.S_232_78_Degrees:
                     __result = "232.78 GRADI CELSIUS";
+                    return false;
+                case CustomSignalName.ENDING:
+                    __result = "LA FINE DI... TUTTO QUESTO";
                     return false;
             }
 

@@ -298,7 +298,7 @@
     <None Update="assets\reels\testReel4.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="assets\reels\TestEndVision.json">
+    <None Update="assets\reels\Ending.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="assets\shipLog\Curiosities.json">

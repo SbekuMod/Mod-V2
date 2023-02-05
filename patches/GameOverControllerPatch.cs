@@ -24,7 +24,7 @@ namespace SbekuMod.patches
         }
 
         private static void OnTriggerDeathByHornfels() {
-            _controllerInstance._deathText.text = "I TUOI DUBBI ERANO FONDATI:\nSCOGLIOCORNO HA DISTRUTTO LA FIBRA DELLO SPAZIO TEMPO\nSOLO PER FARTI MORIRE UN'ALTRA VOLTA";
+            _controllerInstance._deathText.text = "IL DISPOSITIVO DI SCOGLIOCORNO HA FUNZIONATO.\nHA DISTRUTTO IL BITRATE DELLA TUA FIBRA... MA ANCHE QUELLA DELLO SPAZIO TEMPO!\nAVEVI RAGIONE: NON DOVEVI FIDARTI DI LUI.";
             _controllerInstance.SetupGameOverScreen(6f);
         }
 

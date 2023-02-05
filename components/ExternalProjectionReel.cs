@@ -1,15 +1,21 @@
 ﻿using SbekuMod.utils;
 using System;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 namespace SbekuMod.components
 {
     public class ExternalProjectionReel: MonoBehaviour
     {
-        private AudioSignal audioSignal;
+        private MindSlideProjector _mindProjector;
+        private LightAnimator _lightAnimator;
+        private InteractReceiver _interactReceiver;
+        private string _screenPrompt;
+        private InputMode _inputMode;
 
         public void Setup(SlideData[] slides, string screenPrompt = "Interagisci")
         {
+            _screenPrompt = screenPrompt;
             try
             {
                 var slideCollection = new SlideCollection(slides.Length)
@@ -27,51 +33,65 @@ namespace SbekuMod.components
                 var mindCollection = gameObject.AddComponent<MindSlideCollection>();
                 mindCollection._slideCollectionContainer = collectionContainer;
 
-                var mindProjector = gameObject.AddComponent<MindSlideProjector>();
-                mindProjector._mindSlideCollection = mindCollection;
-                mindProjector._slideCollectionItem = collectionContainer;
-
-                mindProjector._startSlideFadeCloseTimeOffset = vanillaProjector._startSlideFadeCloseTimeOffset;
-                mindProjector._slideFadeDuration = vanillaProjector._slideFadeDuration;
-                mindProjector._openingDuration = vanillaProjector._openingDuration;
-                mindProjector._closingDuration = vanillaProjector._closingDuration;
-                mindProjector._closingCurve = vanillaProjector._closingCurve;
-                mindProjector._openingCurve = vanillaProjector._openingCurve;
+                _mindProjector = gameObject.AddComponent<MindSlideProjector>();
+                _mindProjector._mindSlideCollection = mindCollection;
+                _mindProjector._slideCollectionItem = collectionContainer;
+                _mindProjector._startSlideFadeCloseTimeOffset = vanillaProjector._startSlideFadeCloseTimeOffset;
+                _mindProjector._slideFadeDuration = vanillaProjector._slideFadeDuration;
+                _mindProjector._openingDuration = vanillaProjector._openingDuration;
+                _mindProjector._closingDuration = vanillaProjector._closingDuration;
+                _mindProjector._closingCurve = vanillaProjector._closingCurve;
+                _mindProjector._openingCurve = vanillaProjector._openingCurve;
 
                 //audioSignal = GetComponent<AudioSignal>();
 
                 Light light = GetComponentInChildren<Light>(false);
-                LightAnimator lightAnimator = null;
 
                 if (light != null)
-                    lightAnimator = light.gameObject.AddComponent<LightAnimator>();
-                
+                    _lightAnimator = light.gameObject.AddComponent<LightAnimator>();
 
-                var interactReceiver = gameObject.AddComponent<InteractReceiver>();
-                interactReceiver._screenPrompt = new ScreenPrompt(InputLibrary.interact, $"<CMD>{screenPrompt}", 0, ScreenPrompt.DisplayState.Normal, false);
-                interactReceiver._noCommandIconPrompt = new ScreenPrompt("", 0);
-                interactReceiver.OnPressInteract += () =>
+                if (SbekuMod.Instance.EventStorage.Get().HasUnlockedEnding)
                 {
-                    //if (audioSignal != null)
-                    //{
-                    //    audioSignal._onlyAudibleToScope = true;
-                    //    audioSignal._owAudioSource.Stop();
-                    //}
+                    InitializeInteraction();
+                }
+                else
+                {
+                    GlobalMessenger.AddListener(ReelManager.ON_ENDING_UNLOCKED_EVENT_NAME, OnEndingUnlocked);
+                    _lightAnimator?.SetBehaviour(LightAnimator.LightBehaviour.OFF, 1);
+                }
 
-                    if (lightAnimator != null) lightAnimator.SetBehaviour(LightAnimator.LightBehaviour.MaxIntensity, 1);
-                    mindProjector.Play(true);
+                _mindProjector.OnProjectionStart += () =>
+                {
+                    _inputMode = OWInput.SharedInputManager.GetInputMode();
+                    OWInput.SharedInputManager.ChangeInputMode(InputMode.None);
                 };
 
-                
 
-                mindProjector.OnProjectionComplete += () =>
+                _mindProjector.OnProjectionComplete += () =>
                 {
-                    if (lightAnimator != null) lightAnimator.SetBehaviour(LightAnimator.LightBehaviour.MinIntensity, 1);
+                    OWInput.SharedInputManager.ChangeInputMode(_inputMode);
+                    _lightAnimator?.SetBehaviour(LightAnimator.LightBehaviour.MinIntensity, 1);
+
+                    if(!SbekuMod.Instance.EventStorage.Get().HasSeenEnding)
+                    {
+                        string text1 = "I CREDITI SONO DISPONIBILI NEL MENU PRINCIPALE";
+                        NotificationData notificationData1 = new(NotificationTarget.All, text1, 5f, true);
+                        NotificationManager.SharedInstance.PostNotification(notificationData1, false);
+
+                        string text = "GRAZIE PER AVER GIOCATO AD ECHOES OF THE DESERT";
+                        NotificationData notificationData = new(NotificationTarget.All, text, 5f, true);
+                        NotificationManager.SharedInstance.PostNotification(notificationData, false);
+                    }
+                    
+                    SbekuMod.Instance.EventStorage.Get().HasSeenEnding = true;
+                    SbekuMod.Instance.EventStorage.Save();
+                    SbekuMod.Instance.ModHelper.Console.WriteLine($"Ending Seen");
                 };
 
-                mindProjector.OnProjectionStop += () =>
+                _mindProjector.OnProjectionStop += () =>
                 {
-                    if (lightAnimator != null) lightAnimator.SetBehaviour(LightAnimator.LightBehaviour.MinIntensity, 1);
+                    OWInput.SharedInputManager.ChangeInputMode(_inputMode);
+                    _lightAnimator?.SetBehaviour(LightAnimator.LightBehaviour.MinIntensity, 1);
                 };
 
             }
@@ -80,6 +100,31 @@ namespace SbekuMod.components
                 SbekuMod.Instance.ModHelper.Console.WriteLine("REEL PROJECTION SETUP ERROR: " + e.Message, OWML.Common.MessageType.Error);
             }
 
+        }
+
+        private void InitializeInteraction()
+        {
+            _lightAnimator?.SetBehaviour(LightAnimator.LightBehaviour.Flickering, .5f);
+
+            if (_interactReceiver != null) return;
+            _interactReceiver = gameObject.AddComponent<InteractReceiver>();
+            _interactReceiver._screenPrompt = new ScreenPrompt(InputLibrary.interact, $"<CMD>{_screenPrompt}", 0, ScreenPrompt.DisplayState.Normal, false);
+            _interactReceiver._noCommandIconPrompt = new ScreenPrompt("", 0);
+            _interactReceiver.OnPressInteract += () =>
+            {
+                if (_lightAnimator != null) _lightAnimator.SetBehaviour(LightAnimator.LightBehaviour.MaxIntensity, 1);
+                _mindProjector.Play(true);
+            };
+        }
+
+        private void OnDestroy()
+        {
+            GlobalMessenger.RemoveListener(ReelManager.ON_ENDING_UNLOCKED_EVENT_NAME, OnEndingUnlocked);
+        }
+
+        private void OnEndingUnlocked()
+        {
+            InitializeInteraction();
         }
 
     }
