@@ -21,16 +21,15 @@ namespace SbekuMod
 
             if (!File.Exists(filePath)) return;
 
-            var textPopup = File.ReadAllText(filePath);
+            var textPopup = File.ReadAllLines(filePath);
 
-            var popup = modInstance.ModHelper.Menus.PopupManager.CreateMessagePopup(textPopup);
-            popup.OnConfirm += () =>
+            ShowMultiPagePopup(textPopup, () =>
             {
                 modInstance.ModHelper.Console.WriteLine("CONFIRMED");
 
                 modInstance.EventStorage.Get().HasSeenWelcomeScreen = true;
                 modInstance.EventStorage.Save();
-            };
+            });
 
         }
 
@@ -67,7 +66,13 @@ namespace SbekuMod
 
             if (textLines.Length == 0) return;
 
-            var PER_PAGE = 7;
+            ShowMultiPagePopup(textLines);
+
+        }
+
+        private static void ShowMultiPagePopup(string[] textLines, Callback onConfirm = null, int perPage = 7)
+        {
+            if (textLines.Length == 0) return;
 
             var pages = new List<string>();
             var lastPage = "";
@@ -79,7 +84,7 @@ namespace SbekuMod
 
                 i++;
 
-                if(i >= PER_PAGE)
+                if (i >= perPage)
                 {
                     pages.Add(lastPage);
                     lastPage = "";
@@ -87,20 +92,19 @@ namespace SbekuMod
                 }
             }
 
-            if(!string.IsNullOrEmpty(lastPage))
+            if (!string.IsNullOrEmpty(lastPage))
                 pages.Add(lastPage);
 
-            ShowPagesPopup(pages);
-
+            ShowPagesPopup(pages, onConfirm);
         }
 
-
-        private static void ShowPagesPopup(List<string> pages, int index = 0)
+        private static void ShowPagesPopup(List<string> pages, Callback onConfirm = null, int index = 0)
         {
             var popup = SbekuMod.Instance.ModHelper.Menus.PopupManager.CreateMessagePopup(pages.ElementAt(index), okMessage: index < pages.Count - 1 ?  "Prossima Pagina" : "Chiudi");
             popup.OnConfirm += () =>
             {
-                if(index < pages.Count - 1) ShowPagesPopup(pages, index + 1);
+                if(index < pages.Count - 1) ShowPagesPopup(pages, onConfirm, index + 1);
+                else onConfirm?.Invoke();
             };
         }
 

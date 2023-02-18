@@ -7,6 +7,7 @@ namespace SbekuMod.components
 {
     public class ExternalProjectionReel: MonoBehaviour
     {
+        private Signalscope _equippedSignalscope = null;
         private MindSlideProjector _mindProjector;
         private LightAnimator _lightAnimator;
         private InteractReceiver _interactReceiver;
@@ -112,14 +113,33 @@ namespace SbekuMod.components
             _interactReceiver._noCommandIconPrompt = new ScreenPrompt("", 0);
             _interactReceiver.OnPressInteract += () =>
             {
+                if (_equippedSignalscope != null) _equippedSignalscope.UnequipTool();
                 if (_lightAnimator != null) _lightAnimator.SetBehaviour(LightAnimator.LightBehaviour.MaxIntensity, 1);
                 _mindProjector.Play(true);
             };
         }
 
+        private void Start()
+        {
+            GlobalMessenger<Signalscope>.AddListener("EquipSignalscope", new Callback<Signalscope>(OnEquipSignalscope));
+            GlobalMessenger.AddListener("UnequipSignalscope", new Callback(OnUnequipSignalscope));
+        }
+
         private void OnDestroy()
         {
+            GlobalMessenger<Signalscope>.RemoveListener("EquipSignalscope", new Callback<Signalscope>(OnEquipSignalscope));
+            GlobalMessenger.RemoveListener("UnequipSignalscope", new Callback(OnUnequipSignalscope));
             GlobalMessenger.RemoveListener(ReelManager.ON_ENDING_UNLOCKED_EVENT_NAME, OnEndingUnlocked);
+        }
+
+        private void OnEquipSignalscope(Signalscope signalscope)
+        {
+            _equippedSignalscope = signalscope;
+        }
+
+        private void OnUnequipSignalscope()
+        {
+            _equippedSignalscope = null;
         }
 
         private void OnEndingUnlocked()

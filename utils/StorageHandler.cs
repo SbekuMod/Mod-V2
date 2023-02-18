@@ -10,12 +10,26 @@ namespace SbekuMod.utils
         private D Data;
 
         public D Get() {
-            if(Data == null) Initialize();
+            if (Data == null) Initialize();
 
             return Data;
         }
 
-        private static string GetSaveDirectory() => $"{Application.persistentDataPath}/{StandaloneProfileManager._saveDirectory}";
+        private static string GetSaveDirectory() {
+            // STEAM
+            string saveDirectory = $"{Application.persistentDataPath}/{StandaloneProfileManager._saveDirectory}";
+            if(Directory.Exists(saveDirectory)) return saveDirectory;
+
+            // EPIC
+            saveDirectory = $"{Application.persistentDataPath}/Saves";
+            if (Directory.Exists(saveDirectory)) return saveDirectory;
+
+            // DUNNO WHAT TO DO: USE MOD FOLDER
+            saveDirectory = $"{UtilityHelper.GetProjectBasePath()}/Saves";
+            if (!Directory.Exists(saveDirectory)) Directory.CreateDirectory(saveDirectory);
+
+            return saveDirectory;
+        }
 
         private StandaloneProfileManager.ProfileData GetProfileData()
         {
@@ -45,6 +59,8 @@ namespace SbekuMod.utils
         {
             var currentProfile = GetProfileData();
             var saveDirectory = GetSaveDirectory();
+
+            if(currentProfile == null) return Path.Combine(saveDirectory, GetFilename());
 
             return Path.Combine(saveDirectory, currentProfile.profileName, GetFilename());
         }

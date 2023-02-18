@@ -54,7 +54,7 @@ namespace SbekuMod.components
             var storedEvents = SbekuMod.Instance.EventStorage.Get();
             SbekuMod.Instance.ModHelper.Console.WriteLine($"SIGNAL CHECKING EVENTS {storedEvents}");
 
-            if (!storedEvents.HasSeenBeginning && !_isFirst)
+            if (!storedEvents.HasSeenBeginning && !_isFirst && !_isLast)
             {
                 owAudioSource.Stop();
                 _signal._active = false;

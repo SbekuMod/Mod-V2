@@ -69,7 +69,7 @@ namespace SbekuMod.components
 
         private void Start()
         {
-            if (!SbekuMod.Instance.EventStorage.Get().HasSeenBeginning && _isFirst)
+            if (_isFirst)
             {
                 var container = _slideReelItem._slideCollectionContainer;
                 container.onEndOfSlides += OnEndOfSlides;
@@ -84,13 +84,16 @@ namespace SbekuMod.components
 
         private void OnEndOfSlides()
         {
-            SbekuMod.Instance.EventStorage.Get().HasSeenBeginning = true;
-            SbekuMod.Instance.EventStorage.Save();
-            GlobalMessenger.FireEvent("OnFirstSignalTrigger");
             PlayerData.LearnFrequency((SignalFrequency)CustomSignalFrequency.CUSTOM_REELS);
-            string text = "NUOVI <color=#a82debff>SEGNALI ANOMALI</color> INDIVIDUATI";
-            NotificationData notificationData = new(NotificationTarget.All, text, 10f, true);
-            NotificationManager.SharedInstance.PostNotification(notificationData, false);
+
+            if (!SbekuMod.Instance.EventStorage.Get().HasSeenBeginning) {
+                SbekuMod.Instance.EventStorage.Get().HasSeenBeginning = true;
+                SbekuMod.Instance.EventStorage.Save();
+                GlobalMessenger.FireEvent("OnFirstSignalTrigger");
+                string text = "NUOVI <color=#a82debff>SEGNALI ANOMALI</color> INDIVIDUATI";
+                NotificationData notificationData = new(NotificationTarget.All, text, 10f, true);
+                NotificationManager.SharedInstance.PostNotification(notificationData, false);
+             }
 
             _slideReelItem._slideCollectionContainer.onEndOfSlides -= OnEndOfSlides;
         }

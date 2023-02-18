@@ -1,5 +1,5 @@
 ﻿<Project>
   <PropertyGroup>
-    <OutputPath>$(AppData)\OuterWildsModManager\OWML\Mods\LaStringa.SbekuMod</OutputPath>
+    <OutputPath>D:\MainFolders\Desktop\Outer Wilds Mod Manager\OWML\Mods\LaStringa.SbekuMod</OutputPath>
   </PropertyGroup>
 </Project>
