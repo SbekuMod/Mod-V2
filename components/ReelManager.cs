@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SbekuMod.utils;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -82,13 +83,13 @@ namespace SbekuMod.components
                 GlobalMessenger.FireEvent(ON_ENDING_UNLOCKED_EVENT_NAME);
                 GlobalMessenger.FireEvent("OnLastSignalTrigger");
                 SbekuMod.Instance.ModHelper.Console.WriteLine($"Ending Unlocked");
-                string text = $"NUOVO <color=#a82debff>SEGNALE ANOMALO</color> IDENTIFICATO";
+                string text = UITextLibrary.GetString((UITextType)CustomTextType.NEW_SIGNAL_FOUND);
                 NotificationData notificationData = new(NotificationTarget.All, text, 5f, true);
                 NotificationManager.SharedInstance.PostNotification(notificationData, false);
             }
             else
             {
-                string text = $"{_seenReels.Count}/{_availableReels.Count} <color=#a82debff>RULLI DI DIAPOSITIVE</color> TROVATI";
+                string text = $"{_seenReels.Count}/{_availableReels.Count} {UITextLibrary.GetString((UITextType)CustomTextType.NEW_SLIDE_REEL_FOUND)}";
                 NotificationData notificationData = new(NotificationTarget.All, text, 5f, true);
                 NotificationManager.SharedInstance.PostNotification(notificationData, false);
             }

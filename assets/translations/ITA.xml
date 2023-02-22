@@ -16337,5 +16337,94 @@ LOADING...???
       <key>1570</key>
       <value>Funzione di vibrazione</value>
     </TranslationTableEntryUI>
+    
+    <TranslationTableEntryUI>
+      <key>2000</key>
+      <value>DORMI SVEGLIA RIPETI</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>2001</key>
+      <value>IL FILTRO DELLA GRATA</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>2002</key>
+      <value>1/900</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>2003</key>
+      <value>NON MI PRENDERETE MAI VIVO</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>2004</key>
+      <value>FANTASMI NELLA MACCHINA</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>2005</key>
+      <value>LANCI INFUOCATI</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>2006</key>
+      <value>L'INIZIO DI... TUTTO QUESTO</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>2007</key>
+      <value>IL GIRO DEL MONDO IN 90 SECONDI</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>2008</key>
+      <value>PIATTO COME UN TEPORIANO</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>2009</key>
+      <value>IPOTESI E SIMULAZIONI</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>2010</key>
+      <value>PRIMO UTILIZZATORE</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>2011</key>
+      <value>IN CIMA ALL'ONDA</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>2012</key>
+      <value>232.78 GRADI CELSIUS</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>2013</key>
+      <value>LA FINE DI... TUTTO QUESTO</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>2014</key>
+      <value>ECHI DEL DESERTO</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>2015</key>
+      <value>ANIMA DELLA SCOPERTA</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>2016</key>
+      <value>NUOVI &lt;color=#a82debff&gt;SEGNALI ANOMALI&lt;/color&gt; INDIVIDUATI</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>2017</key>
+      <value>NUOVO &lt;color=#a82debff&gt;SEGNALE ANOMALO&lt;/color&gt; INDIVIDUATO</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>2018</key>
+      <value>&lt;color=#a82debff&gt;RULLI DI DIAPOSITIVE&lt;/color&gt; TROVATI</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>2019</key>
+      <value>IL DISPOSITIVO DI SCOGLIOCORNO HA FUNZIONATO.\nHA DISTRUTTO IL BITRATE DELLA TUA FIBRA... MA ANCHE QUELLA DELLO SPAZIO TEMPO!\nAVEVI RAGIONE: NON DOVEVI FIDARTI DI LUI.</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>2020</key>
+      <value>I CREDITI SONO DISPONIBILI NEL MENU PRINCIPALE</value>
+    </TranslationTableEntryUI>
+    <TranslationTableEntryUI>
+      <key>2021</key>
+      <value>GRAZIE PER AVER GIOCATO AD ECHOES OF THE DESERT</value>
+    </TranslationTableEntryUI>
   </table_ui>
 </TranslationTable_XML>

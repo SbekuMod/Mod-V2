@@ -90,7 +90,7 @@ namespace SbekuMod.components
                 SbekuMod.Instance.EventStorage.Get().HasSeenBeginning = true;
                 SbekuMod.Instance.EventStorage.Save();
                 GlobalMessenger.FireEvent("OnFirstSignalTrigger");
-                string text = "NUOVI <color=#a82debff>SEGNALI ANOMALI</color> INDIVIDUATI";
+                string text = UITextLibrary.GetString((UITextType)CustomTextType.NEW_SIGNALS_FOUND);
                 NotificationData notificationData = new(NotificationTarget.All, text, 10f, true);
                 NotificationManager.SharedInstance.PostNotification(notificationData, false);
              }

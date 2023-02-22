@@ -14,8 +14,11 @@ namespace SbekuMod.components
         private string _screenPrompt;
         private InputMode _inputMode;
 
-        public void Setup(SlideData[] slides, string screenPrompt = "Interagisci")
+        public void Setup(SlideData[] slides, string screenPrompt = null)
         {
+            if (screenPrompt == null)
+                screenPrompt = UITextLibrary.GetString(UITextType.RebindX);
+
             _screenPrompt = screenPrompt;
             try
             {
@@ -75,11 +78,11 @@ namespace SbekuMod.components
 
                     if(!SbekuMod.Instance.EventStorage.Get().HasSeenEnding)
                     {
-                        string text1 = "I CREDITI SONO DISPONIBILI NEL MENU PRINCIPALE";
+                        string text1 = UITextLibrary.GetString((UITextType)CustomTextType.CREDITS_AVAILABLE);
                         NotificationData notificationData1 = new(NotificationTarget.All, text1, 5f, true);
                         NotificationManager.SharedInstance.PostNotification(notificationData1, false);
 
-                        string text = "GRAZIE PER AVER GIOCATO AD ECHOES OF THE DESERT";
+                        string text = UITextLibrary.GetString((UITextType)CustomTextType.THANKS_FOR_PLAYING);
                         NotificationData notificationData = new(NotificationTarget.All, text, 5f, true);
                         NotificationManager.SharedInstance.PostNotification(notificationData, false);
                     }

@@ -1,6 +1,7 @@
 ﻿using HarmonyLib;
 using Newtonsoft.Json.Linq;
 using OWML.ModHelper;
+using SbekuMod.utils;
 using System;
 using System.Runtime.Serialization;
 using UnityEngine;
@@ -62,46 +63,46 @@ namespace SbekuMod.patches
                     __result = "POGGERS";
                     return false;
                 case CustomSignalName.SleepWakeRepeat:
-                    __result = "DORMI SVEGLIA RIPETI";
+                    __result = UITextLibrary.GetString((UITextType) CustomTextType.SIGNAL_SLEEP_WAKE_REPEAT);
                     return false;
                 case CustomSignalName.TheGrateFilter:
-                    __result = "IL FILTRO DELLA GRATA";
+                    __result = UITextLibrary.GetString((UITextType)CustomTextType.SIGNAL_THE_GRATE_FILTER);
                     return false;
                 case CustomSignalName.ACHIEVEMENT_1_900:
-                    __result = "1/900";
+                    __result = UITextLibrary.GetString((UITextType)CustomTextType.SIGNAL_ACHIEVEMENT_1_900);
                     return false;
                 case CustomSignalName.NEVER_GET_ME_ALIVE:
-                    __result = "NON MI PRENDERETE MAI VIVO";
+                    __result = UITextLibrary.GetString((UITextType)CustomTextType.SIGNAL_NEVER_GET_ME_ALIVE);
                     return false;
                 case CustomSignalName.GHOST_IN_THE_MACHINE:
-                    __result = "FANTASMI NELLA MACCHINA";
+                    __result = UITextLibrary.GetString((UITextType)CustomTextType.SIGNAL_GHOST_IN_THE_MACHINE);
                     return false;
                 case CustomSignalName.FIRE_ARROWS:
-                    __result = "LANCI INFUOCATI";
+                    __result = UITextLibrary.GetString((UITextType)CustomTextType.SIGNAL_FIRE_ARROWS);
                     return false;
                 case CustomSignalName.BEGINNING:
-                    __result = "L'INIZIO DI... TUTTO QUESTO";
+                    __result = UITextLibrary.GetString((UITextType)CustomTextType.SIGNAL_BEGINNING);
                     return false;
                 case CustomSignalName.AROUND_THE_WORLD:
-                    __result = "IL GIRO DEL MONDO IN 90 SECONDI";
+                    __result = UITextLibrary.GetString((UITextType)CustomTextType.SIGNAL_AROUND_THE_WORLD);
                     return false;
                 case CustomSignalName.FLAT_HEARTHIAN:
-                    __result = "PIATTO COME UN TEPORIANO";
+                    __result = UITextLibrary.GetString((UITextType)CustomTextType.SIGNAL_FLAT_HEARTHIAN);
                     return false;
                 case CustomSignalName.HYPOTHESIS:
-                    __result = "IPOTESI E SIMULAZIONI";
+                    __result = UITextLibrary.GetString((UITextType)CustomTextType.SIGNAL_HYPOTHESIS);
                     return false;
                 case CustomSignalName.EARLY_ADOPTER:
-                    __result = "PRIMO UTILIZZATORE";
+                    __result = UITextLibrary.GetString((UITextType)CustomTextType.SIGNAL_EARLY_ADOPTER);
                     return false;
                 case CustomSignalName.TUBULAR:
-                    __result = "IN CIMA ALL'ONDA";
+                    __result = UITextLibrary.GetString((UITextType)CustomTextType.SIGNAL_TUBULAR);
                     return false;
                 case CustomSignalName.S_232_78_Degrees:
-                    __result = "232.78 GRADI CELSIUS";
+                    __result = UITextLibrary.GetString((UITextType)CustomTextType.SIGNAL_232_78_DEGREES);
                     return false;
                 case CustomSignalName.ENDING:
-                    __result = "LA FINE DI... TUTTO QUESTO";
+                    __result = UITextLibrary.GetString((UITextType)CustomTextType.SIGNAL_ENDING);
                     return false;
             }
 
@@ -152,13 +153,13 @@ namespace SbekuMod.patches
         {
             if ((CustomSignalFrequency)frequency == CustomSignalFrequency.CUSTOM_REELS)
             {
-                __result = "ECHI DEL DESERTO";
+                __result = UITextLibrary.GetString((UITextType)CustomTextType.FREQUENCY_ECHOES_OF_THE_DESERT);
                 return false;
             }
 
             if ((CustomSignalFrequency)frequency == CustomSignalFrequency.STORY_REELS)
             {
-                __result = "ANIMA DELLA SCOPERTA";
+                __result = UITextLibrary.GetString((UITextType)CustomTextType.FREQUENCY_STORY_REELS);
                 return false;
             }
             return true;
