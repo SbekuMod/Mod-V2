@@ -1,6 +1,8 @@
 ﻿using Delaunay.LR;
 using HarmonyLib;
+using SbekuMod.components;
 using SbekuMod.utils;
+using System.IO;
 using UnityEngine;
 using UnityEngine.Video;
 
@@ -68,6 +70,10 @@ namespace SbekuMod.patches
             GameObject.Find("AudioSource").SetActive(false);
             GameObject.Find("AudioSource_Kazoo").SetActive(false);
             GameObject.Find("Background").SetActive(false);
+            GameObject videoSubtitles = new GameObject();
+            videoSubtitles.name = "VideoSubtitlesManager";
+            var subtitleManager = videoSubtitles.AddComponent<VideoSubtitles>();
+
             var camera = Locator.GetActiveCamera();
             var videoPlayer = camera.gameObject.AddComponent<VideoPlayer>();
             videoPlayer.clip = GetVideoFromType(type);
@@ -75,6 +81,10 @@ namespace SbekuMod.patches
             videoPlayer.playOnAwake = false;
             videoPlayer.Play();
             videoPlayer.loopPointReached += OnVideoEnd;
+
+            var subtitlesPath = Path.Combine("creditsSubtitles", $"{SbekuMod.CurrentLanguage}.json");
+            subtitleManager.Initialize(videoPlayer, subtitlesPath);
+
             var currentProfile = StandaloneProfileManager.SharedInstance.currentProfile;
             if(currentProfile != null)
             {
