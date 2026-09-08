@@ -43,13 +43,20 @@ namespace SbekuMod.utils
 
             foreach (FileInfo fileInfo in new DirectoryInfo(saveDirectory).GetFiles("*.owprofile"))
             {
-                var json = File.ReadAllText(fileInfo.FullName);
-                if (json == null) continue;
+                try
+                {
+                    var json = File.ReadAllText(fileInfo.FullName);
+                    if (json == null) continue;
 
-                var profileData = JsonConvert.DeserializeObject<StandaloneProfileManager.ProfileData>(json);
-                if (profileData == null) continue;
+                    var profileData = JsonConvert.DeserializeObject<StandaloneProfileManager.ProfileData>(json);
+                    if (profileData == null) continue;
 
-                if (loadedProfile == null || loadedProfile.lastModifiedTime < profileData.lastModifiedTime) loadedProfile = profileData;
+                    if (loadedProfile == null || loadedProfile.lastModifiedTime < profileData.lastModifiedTime) loadedProfile = profileData;
+                }
+                catch (Exception e)
+                {
+                    SbekuMod.Instance.ModHelper.Console.WriteLine($"ERROR LOADING PROFILE FROM FILE {fileInfo.FullName}: {e}");
+                }
             }
 
             return loadedProfile;

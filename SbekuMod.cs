@@ -8,6 +8,7 @@ using UnityEngine.InputSystem;
 using static SbekuMod.patches.AudioSignalPatch;
 using System;
 using SbekuMod.patches;
+using Steamworks;
 
 namespace SbekuMod
 {
@@ -20,6 +21,7 @@ namespace SbekuMod
 
         private static readonly string RELOAD_DIALOGS_SETTING_KEY = "Premi K per ricaricare i dialoghi";
         private static readonly string UNLOCK_EVERYTHING_SETTING_KEY = "Premi U per sbloccare tutti gli eventi";
+        private static readonly string UNLOCK_ALL_ACHIEVEMENTS = "Premi J per sbloccare tutti gli achievements";
 
         private void Awake()
         {
@@ -30,10 +32,19 @@ namespace SbekuMod
         private void Update()
         {
             if (ModHelper.Config.GetSettingsValue<bool>(UNLOCK_EVERYTHING_SETTING_KEY) && Keyboard.current.uKey.wasPressedThisFrame)
+            {
                 ShipLogUtility.RevealAllFacts();
+            }
+                
 
-            if (ModHelper.Config.GetSettingsValue<bool>(RELOAD_DIALOGS_SETTING_KEY) && Keyboard.current.kKey.wasPressedThisFrame) { 
-                ModReloader.ReloadDialogs(); 
+            if (ModHelper.Config.GetSettingsValue<bool>(UNLOCK_ALL_ACHIEVEMENTS) && Keyboard.current.jKey.wasPressedThisFrame)
+            {
+                Achievements.AchieveAll();
+            }
+
+            if (ModHelper.Config.GetSettingsValue<bool>(RELOAD_DIALOGS_SETTING_KEY) && Keyboard.current.kKey.wasPressedThisFrame)
+            {
+                ModReloader.ReloadDialogs();
                 ModReloader.ReloadTranslation();
             }
         }
@@ -46,7 +57,7 @@ namespace SbekuMod
             ModHelper.Console.WriteLine("CURRENT LANGUAGE: " + CurrentLanguage);
         }
 
-        private void InitializeMainMenu ()
+        private void InitializeMainMenu()
         {
             VersionText.Setup();
             MainMenuUtility.ReplaceDLCLogo();
@@ -60,12 +71,12 @@ namespace SbekuMod
                     CreditsUtility.StartCredits(CreditsPatch.CustomCreditsType.FINAL);
                 else
                     Popups.ShowCreditsToBeUnlocked();
-                
+
             };
 
         }
 
-        private void InitializeContent ()
+        private void InitializeContent()
         {
             if (!PlayerData._currentGameSave.dictConditions.TryGetValue("LAUNCH_CODES_GIVEN", out var hasLaunchCodes))
                 hasLaunchCodes = false;
@@ -109,24 +120,23 @@ namespace SbekuMod
             var titleScreenManager = FindObjectOfType<TitleScreenManager>();
             titleScreenManager._cameraController.OnLogoPanComplete += () => Popups.ShowWelcomePopup();
 
-            ModHelper.Menus.MainMenu.OnInit += () => InitializeMainMenu();
+            ModHelper.Menus.MainMenu.OnInit += InitializeMainMenu;
 
             LoadManager.OnCompleteSceneLoad += (scene, loadedScene) =>
             {
-                if (loadedScene == OWScene.SolarSystem)
-                {
-                    if (!PlayerData._currentGameSave.dictConditions.TryGetValue("LAUNCH_CODES_GIVEN", out var hasLaunchCodes))
-                        hasLaunchCodes = false;
+                if (loadedScene != OWScene.SolarSystem) return;
+                
+                if (!PlayerData._currentGameSave.dictConditions.TryGetValue("LAUNCH_CODES_GIVEN", out var hasLaunchCodes))
+                    hasLaunchCodes = false;
 
-                    if (!hasLaunchCodes) return;
+                if (!hasLaunchCodes) return;
 
-                    EasterEggUtility.InitializeParadoxEasterEgg();
-                    ReelSetup.SetupReels();
-                }
+                EasterEggUtility.InitializeParadoxEasterEgg();
+                ReelSetup.SetupReels();
             };
 
             GlobalMessenger.AddListener("PutOnHelmet", InitializeContent);
-            GlobalMessenger<Signalscope>.AddListener("EquipSignalscope", new Callback<Signalscope>(InitializeDlcContent));
+            GlobalMessenger<Signalscope>.AddListener("EquipSignalscope", InitializeDlcContent);
 
             ModHelper.Console.WriteLine($"{nameof(SbekuMod)} initialized!", MessageType.Success);
         }
