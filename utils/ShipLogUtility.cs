@@ -11,7 +11,6 @@ namespace SbekuMod.utils
     {
 
         public static readonly string BASE_PATH = "assets/shipLog";
-        public static readonly string SHIP_LOG_DUMP_SETTING = "Effettua dump registro della nave";
         public static readonly string SHIP_LOG_LOAD_CUSTOM_EVENTS_SETTING = "Carica eventi nel registro della nave";
         public static readonly string[] VALID_LANGUAGES = { "ITA" };
 
@@ -104,12 +103,6 @@ namespace SbekuMod.utils
                 LoadedFactEntryData = new();
             }
 
-        }
-
-        public static void RevealAllFacts()
-        {
-            var shipLogManager = SbekuMod.FindObjectOfType<ShipLogManager>();
-            shipLogManager.RevealAllFacts();
         }
 
         public static void RevealAllLoadedFacts()

@@ -12,7 +12,6 @@ namespace SbekuMod.patches
     {
 
         private static readonly string BASE_PATH = "assets/dialogues";
-        private static readonly string DIALOG_DUMP_SETTING = "Effettua dump degli alberi di dialogo";
         private static readonly string[] VALID_LANGUAGES = {"ITA"};
 
         [HarmonyPrefix]
@@ -36,15 +35,6 @@ namespace SbekuMod.patches
                     };
 
                     __instance._xmlCharacterDialogueAsset = xmlAsset;
-                }else
-                {
-                    if (SbekuMod.Instance.ModHelper.Config.GetSettingsValue<bool>(DIALOG_DUMP_SETTING))
-                    {
-                        if (!Directory.Exists(BASE_PATH)) Directory.CreateDirectory(Path.Combine(UtilityHelper.GetProjectBasePath(), BASE_PATH));
-
-                        File.WriteAllText(filePath, __instance._xmlCharacterDialogueAsset.text);
-                        __instance._xmlCharacterDialogueAsset = originalTextAsset;
-                    }
                 }
             }
             catch (Exception e)

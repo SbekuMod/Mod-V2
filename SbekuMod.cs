@@ -4,11 +4,9 @@ using HarmonyLib;
 using System.Reflection;
 using SbekuMod.storage;
 using SbekuMod.utils;
-using UnityEngine.InputSystem;
 using static SbekuMod.patches.AudioSignalPatch;
 using System;
 using SbekuMod.patches;
-using Steamworks;
 
 namespace SbekuMod
 {
@@ -19,36 +17,11 @@ namespace SbekuMod
         public static string CurrentLanguage = null;
 
 
-        private static readonly string RELOAD_DIALOGS_SETTING_KEY = "Premi K per ricaricare i dialoghi";
-        private static readonly string UNLOCK_EVERYTHING_SETTING_KEY = "Premi U per sbloccare tutti gli eventi";
-        private static readonly string UNLOCK_ALL_ACHIEVEMENTS = "Premi J per sbloccare tutti gli achievements";
-
         private void Awake()
         {
             Instance = this;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
         }
-
-        private void Update()
-        {
-            if (ModHelper.Config.GetSettingsValue<bool>(UNLOCK_EVERYTHING_SETTING_KEY) && Keyboard.current.uKey.wasPressedThisFrame)
-            {
-                ShipLogUtility.RevealAllFacts();
-            }
-                
-
-            if (ModHelper.Config.GetSettingsValue<bool>(UNLOCK_ALL_ACHIEVEMENTS) && Keyboard.current.jKey.wasPressedThisFrame)
-            {
-                Achievements.AchieveAll();
-            }
-
-            if (ModHelper.Config.GetSettingsValue<bool>(RELOAD_DIALOGS_SETTING_KEY) && Keyboard.current.kKey.wasPressedThisFrame)
-            {
-                ModReloader.ReloadDialogs();
-                ModReloader.ReloadTranslation();
-            }
-        }
-
 
         private void InitializeLanguage()
         {

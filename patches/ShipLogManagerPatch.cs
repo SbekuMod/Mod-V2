@@ -71,22 +71,8 @@ namespace SbekuMod.patches
         [HarmonyPatch(typeof(ShipLogManager), nameof(ShipLogManager.GenerateEntriesFromXml))]
         public static void ShipLogManager_GenerateEntriesFromXml_Prefix(ref TextAsset xml)
         {
-            if (SbekuMod.Instance.ModHelper.Config.GetSettingsValue<bool>(ShipLogUtility.SHIP_LOG_LOAD_CUSTOM_EVENTS_SETTING)) 
+            if (SbekuMod.Instance.ModHelper.Config.GetSettingsValue<bool>(ShipLogUtility.SHIP_LOG_LOAD_CUSTOM_EVENTS_SETTING))
                 SbekuMod.Instance.ModHelper.Console.WriteLine($"Loading Ship Log: {xml.name}");
-
-            if (!SbekuMod.Instance.ModHelper.Config.GetSettingsValue<bool>(ShipLogUtility.SHIP_LOG_DUMP_SETTING)) return;            
-
-            string filePath = Path.Combine(UtilityHelper.GetProjectBasePath(), ShipLogUtility.BASE_PATH, xml.name + ".xml");
-
-            if(!File.Exists(filePath))
-            {
-                if (!Directory.Exists(ShipLogUtility.BASE_PATH)) 
-                    Directory.CreateDirectory(Path.Combine(UtilityHelper.GetProjectBasePath(), ShipLogUtility.BASE_PATH));
-
-                SbekuMod.Instance.ModHelper.Console.WriteLine($"Dumping file: {filePath}");
-                File.WriteAllText(filePath, xml.text);
-            }
-
         }
 
     }

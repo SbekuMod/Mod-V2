@@ -60,18 +60,10 @@ both are enabled at once.
 
 ### Configuration
 
-Settings are exposed through the mod manager. The first is the normal gameplay
-option, while the rest are debug tools that are off by default.
-
-| Setting | Effect |
-| --- | --- |
-| Load events into the ship log | Reveals the mod's ship log entries as you play, and is on by default. |
-| Dump ship log | Writes the game's ship log data to disk. |
-| Dump dialogue trees | Writes the game's dialogue trees to disk. |
-| Press **I** to unlock all reels | Hold `I` to unlock every slide reel. |
-| Press **K** to reload dialogue | Reloads dialogue and translations without restarting, which is handy while writing. |
-| Press **U** to unlock all events | Reveals every ship log fact. |
-| Press **J** to unlock all achievements | Unlocks all achievements. |
+The mod manager exposes a single setting, *Carica eventi nel registro della nave*,
+which is on by default and reveals the mod's ship log entries as you play. Turning it
+off skips loading those custom entries and leaves the ship log as the base game has
+it.
 
 ### Building from source
 
@@ -176,18 +168,10 @@ manager ti avviserà se sono attive entrambe.
 
 ### Configurazione
 
-Le impostazioni sono accessibili dal mod manager. La prima è l'opzione di gioco
-normale, mentre le altre sono strumenti di debug disattivati di default.
-
-| Impostazione | Effetto |
-| --- | --- |
-| Carica eventi nel registro della nave | Rivela le voci della mod nel registro mentre giochi, ed è attiva di default. |
-| Effettua dump registro della nave | Scrive su disco i dati del registro della nave. |
-| Effettua dump degli alberi di dialogo | Scrive su disco gli alberi di dialogo del gioco. |
-| Premi **I** per sbloccare tutti i rulli | Tieni premuto `I` per sbloccare ogni rullo. |
-| Premi **K** per ricaricare i dialoghi | Ricarica dialoghi e traduzioni senza riavviare, comodo mentre si scrive. |
-| Premi **U** per sbloccare tutti gli eventi | Rivela ogni fatto del registro della nave. |
-| Premi **J** per sbloccare tutti gli achievements | Sblocca tutti gli achievement. |
+Il mod manager espone una sola impostazione, *Carica eventi nel registro della nave*,
+attiva di default, che rivela le voci del registro aggiunte dalla mod mentre giochi.
+Disattivandola le voci personalizzate non vengono caricate e il registro resta quello
+del gioco base.
 
 ### Compilare dai sorgenti
 

@@ -5,7 +5,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 namespace SbekuMod.components
 {
@@ -45,15 +44,6 @@ namespace SbekuMod.components
         {
             instance = null;
             GlobalMessenger<string>.RemoveListener(ON_SEE_REEL_EVENT_NAME, new Callback<string>(OnSeeReel));
-        }
-
-        private void Update()
-        {
-            if(SbekuMod.Instance.ModHelper.Config.GetSettingsValue<bool>("Premi I per sbloccare tutti i rulli") && Keyboard.current.iKey.isPressed)
-            {
-                foreach (var availableReel in _availableReels)
-                    OnSeeReel(availableReel.gameObject.name);
-            }
         }
 
         public void RegisterReel(ExternalSlideReel reel)
