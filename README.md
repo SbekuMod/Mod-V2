@@ -51,6 +51,13 @@ and press Run. To install by hand, drop the mod's files into your OWML mods fold
 that you end up with `OWML/Mods/LaStringa.SbekuMod/` containing `SbekuMod.dll`,
 `manifest.json`, `default-config.json`, and the `assets/` folder.
 
+### Compatibility
+
+This mod is **incompatible with [New Horizons](https://outerwildsmods.com/mods/newhorizons/)**
+(`xen.NewHorizons`) and the two cannot be run together. The conflict is declared in
+`manifest.json` through OWML's `conflicts` field, so the mod manager will warn you if
+both are enabled at once.
+
 ### Configuration
 
 Settings are exposed through the mod manager. The first is the normal gameplay
@@ -159,6 +166,13 @@ Manager](https://outerwildsmods.com/mod-manager/): installalo, poi installa ques
 e premi Run. Per installarla a mano, copia i file della mod nella cartella mod di
 OWML, in modo da ottenere `OWML/Mods/LaStringa.SbekuMod/` con dentro `SbekuMod.dll`,
 `manifest.json`, `default-config.json` e la cartella `assets/`.
+
+### Compatibilità
+
+Questa mod è **incompatibile con [New Horizons](https://outerwildsmods.com/mods/newhorizons/)**
+(`xen.NewHorizons`) e le due non possono essere usate insieme. Il conflitto è
+dichiarato in `manifest.json` tramite il campo `conflicts` di OWML, quindi il mod
+manager ti avviserà se sono attive entrambe.
 
 ### Configurazione
 
