@@ -46,7 +46,7 @@ the game greets him by name the moment you reach the main menu.
 ### Installation
 
 The easy way is the [Outer Wilds Mod
-Manager](https://github.com/ow-mods/ow-mod-man): install it, then install this mod
+Manager](https://outerwildsmods.com/mod-manager/): install it, then install this mod
 and press Run. To install by hand, drop the mod's files into your OWML mods folder so
 that you end up with `OWML/Mods/LaStringa.SbekuMod/` containing `SbekuMod.dll`,
 `manifest.json`, `default-config.json`, and the `assets/` folder.
@@ -155,7 +155,7 @@ questo che il gioco lo saluta per nome appena arrivi al menu principale.
 ### Installazione
 
 La via più semplice è l'[Outer Wilds Mod
-Manager](https://github.com/ow-mods/ow-mod-man): installalo, poi installa questa mod
+Manager](https://outerwildsmods.com/mod-manager/): installalo, poi installa questa mod
 e premi Run. Per installarla a mano, copia i file della mod nella cartella mod di
 OWML, in modo da ottenere `OWML/Mods/LaStringa.SbekuMod/` con dentro `SbekuMod.dll`,
 `manifest.json`, `default-config.json` e la cartella `assets/`.
