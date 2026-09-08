@@ -4,7 +4,7 @@
   "author": "LaStringa",
   "name": "SbekuMod",
   "uniqueName": "LaStringa.SbekuMod",
-  "version": "2.5.4",
+  "version": "2.5.5",
   "owmlVersion": "2.7.3",
   "dependencies": [],
   "conflicts": [ "xen.NewHorizons" ]
