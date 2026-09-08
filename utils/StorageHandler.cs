@@ -43,6 +43,10 @@ namespace SbekuMod.utils
 
             foreach (FileInfo fileInfo in new DirectoryInfo(saveDirectory).GetFiles("*.owprofile"))
             {
+                // macOS sidecar files (._Name.owprofile) match the filter but contain
+                // binary resource-fork data instead of JSON
+                if (fileInfo.Name.StartsWith("._")) continue;
+
                 try
                 {
                     var json = File.ReadAllText(fileInfo.FullName);
